@@ -688,14 +688,15 @@ def Metrics(args, save_pred_file, output_log_file):
         y_pred, score = get_y_pred(args.task_name, save_pred_file)
         aspect_P, aspect_R, aspect_F = semeval_PRF(y_true, y_pred)
         sentiment_Acc_4_classes = semeval_Acc(y_true, y_pred, score, 4)
-        sentiment_Acc_3_classes = semeval_Acc(y_true, y_pred, score, 3)
-        sentiment_Acc_2_classes = semeval_Acc(y_true, y_pred, score, 2)
+        # sentiment_Acc_3_classes = semeval_Acc(y_true, y_pred, score, 3)
+        # sentiment_Acc_2_classes = semeval_Acc(y_true, y_pred, score, 2)
         result = {'aspect_P': aspect_P,
                 'aspect_R': aspect_R,
                 'aspect_F': aspect_F,
                 'sentiment_Acc_4_classes': sentiment_Acc_4_classes,
-                'sentiment_Acc_3_classes': sentiment_Acc_3_classes,
-                'sentiment_Acc_2_classes': sentiment_Acc_2_classes}
+                # 'sentiment_Acc_3_classes': sentiment_Acc_3_classes,
+                # 'sentiment_Acc_2_classes': sentiment_Acc_2_classes
+                }
 
     for key in result.keys():
         logger.info("  %s = %s\n", key, str(result[key]))

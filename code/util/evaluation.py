@@ -183,6 +183,7 @@ def semeval_Acc(y_true, y_pred, score, classes=4):
             if y_true[i]==tmp:
                 total_right+=1
         sentiment_Acc = total_right/total
+        sentiment_f1 = metrics.f1_score(y_true, y_pred)
     elif classes == 3:
         total=0
         total_right=0
@@ -200,6 +201,7 @@ def semeval_Acc(y_true, y_pred, score, classes=4):
             if y_true[i]==tmp:
                 total_right+=1
         sentiment_Acc = total_right/total
+        sentiment_f1 = metrics.f1_score(y_true, y_pred)
     else:
         total=0
         total_right=0
@@ -215,8 +217,9 @@ def semeval_Acc(y_true, y_pred, score, classes=4):
             if y_true[i]==tmp:
                 total_right+=1
         sentiment_Acc = total_right/total
+        sentiment_f1 = metrics.f1_score(y_true, y_pred)
 
-    return sentiment_Acc
+    return sentiment_Acc, sentiment_f1
 
 
 def main():
