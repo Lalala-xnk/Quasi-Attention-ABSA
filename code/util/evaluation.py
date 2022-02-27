@@ -168,6 +168,7 @@ def semeval_Acc(y_true, y_pred, score, classes=4):
         total=0
         total_right=0
         y_pred_classified = []
+        y_true_classified = []
         for i in range(len(y_true)):
             if y_true[i]==4:continue
             total+=1
@@ -184,8 +185,9 @@ def semeval_Acc(y_true, y_pred, score, classes=4):
             if y_true[i]==tmp:
                 total_right+=1
             y_pred_classified.append(tmp)
+            y_true_classified.append(y_true[i])
         sentiment_Acc = total_right/total
-        sentiment_f1 = metrics.f1_score(y_true, y_pred_classified, average='micro')
+        sentiment_f1 = metrics.f1_score(y_true_classified, y_pred_classified, average='micro')
     elif classes == 3:
         total=0
         total_right=0
