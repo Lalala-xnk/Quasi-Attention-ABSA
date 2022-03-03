@@ -9,7 +9,7 @@ import math
 import six
 import torch
 import torch.nn as nn
-from torch.nn import CrossEntropyLoss
+from torch.nn import CrossEntropyLoss, MSELoss
 import torch.nn.functional as F
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 
@@ -622,7 +622,7 @@ class QACGBertForSequenceScore(nn.Module):
 
         score = self.scorer(pooled_output)
         if labels is not None:
-            loss_fct = CrossEntropyLoss()
+            loss_fct = MSELoss()
             loss = loss_fct(score, labels)
             return loss, score, all_new_attention_probs, all_attention_probs, all_quasi_attention_prob, all_lambda_context
         else:

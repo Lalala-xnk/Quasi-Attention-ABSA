@@ -304,7 +304,7 @@ def data_and_model_loader(device, n_gpu, args, sampler="randomWeight"):
     all_input_ids = torch.tensor([f.input_ids for f in test_features], dtype=torch.long)
     all_input_mask = torch.tensor([f.input_mask for f in test_features], dtype=torch.long)
     all_segment_ids = torch.tensor([f.segment_ids for f in test_features], dtype=torch.long)
-    all_score = torch.tensor([f.score for f in test_features], dtype=torch.long)
+    all_score = torch.tensor([f.score for f in test_features], dtype=torch.float)
     all_seq_len = torch.tensor([[f.seq_len] for f in test_features], dtype=torch.long)
     all_context_ids = torch.tensor([f.context_ids for f in test_features], dtype=torch.long)
 
@@ -360,20 +360,20 @@ def evaluate(test_dataloader, model, device, n_gpu, nb_tr_steps, tr_loss, epoch,
             # logits = logits.detach().cpu().numpy()
             # label_ids = label_ids.to('cpu').numpy()
             # outputs = np.argmax(logits, axis=1)
-            tmp_test_accuracy = np.square(score-pred_score)
+            # tmp_test_accuracy = np.square(score-pred_score)
 
             y_true.append(score)
             y_pred.append(pred_score)
             # score.append(logits)
 
             test_loss += tmp_test_loss.mean().item()
-            test_accuracy += tmp_test_accuracy
+            # test_accuracy += tmp_test_accuracy
 
             nb_test_examples += input_ids.size(0)
             nb_test_steps += 1
 
         test_loss = test_loss / nb_test_steps
-        test_accuracy = test_accuracy / nb_test_examples
+        # test_accuracy = test_accuracy / nb_test_examples
 
     # we follow previous works in calculating the metrics
     # y_true = np.concatenate(y_true, axis=0)
@@ -392,7 +392,7 @@ def evaluate(test_dataloader, model, device, n_gpu, nb_tr_steps, tr_loss, epoch,
               'global_step': global_step,
               'loss': loss_tr,
               'test_loss': test_loss,
-              'test_accuracy': test_accuracy,
+              # 'test_accuracy': test_accuracy,
               # 'aspect_acc': aspect_acc,
               # 'aspect_f1': aspect_f1,
               # 'sentiment_acc': sentiment_acc
