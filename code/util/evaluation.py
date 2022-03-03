@@ -234,6 +234,10 @@ def semeval_Acc(y_true, y_pred, score, classes=4):
     return sentiment_Acc, sentiment_f1
 
 
+def fiqa_eval(y_true, y_pred, score):
+    aspect_acc, aspect_f1, sentiment_acc = 0, 0, 0
+    return aspect_acc, aspect_f1, sentiment_acc
+
 # def main():
 #     parser = argparse.ArgumentParser()
 #     parser.add_argument("--task_name",

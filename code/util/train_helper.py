@@ -28,7 +28,8 @@ from tqdm import tqdm, trange
 
 from util.optimization import BERTAdam
 from util.processor import (Sentihood_NLI_M_Processor,
-                            Semeval_NLI_M_Processor)
+                            Semeval_NLI_M_Processor,
+                            FiqaProcessor)
 
 from util.tokenization import *
 
@@ -42,7 +43,9 @@ logger = logging.getLogger(__name__)
 
 processors = {
     "sentihood_NLI_M":Sentihood_NLI_M_Processor,
-    "semeval_NLI_M":Semeval_NLI_M_Processor
+    "semeval_NLI_M":Semeval_NLI_M_Processor,
+    "fiqa_headline": FiqaProcessor,
+    "fiqa_post": FiqaProcessor
 }
 
 context_id_map_sentihood = {'location - 1 - general':0,
@@ -59,6 +62,11 @@ context_id_map_semeval= {'price':0,
                          'food':2,
                          'ambience':3,
                          'service':4}
+
+context_id_map_fiqa = {'stock': 0,
+                       'corporate': 1,
+                       'market': 2,
+                       'economy': 3}
 
 def _truncate_seq_pair(tokens_a, tokens_b, max_length):
     """Truncates a sequence pair in place to the maximum length."""
@@ -164,6 +172,8 @@ def convert_examples_to_features(examples, label_list, max_seq_length,
             # let us encode context into single int
             if args.task_name == "sentihood_NLI_M":
                 context_ids = [context_id_map_sentihood[example.text_b]]
+            elif args.task_name in ["fiqa_headline", "fiqa_post"]:
+                context_ids = [context_id_map_fiqa[example.text_b]]
             else:
                 context_ids = [context_id_map_semeval[example.text_b]]
 
@@ -456,7 +466,7 @@ def data_and_model_loader(device, n_gpu, args, sampler="randomWeight"):
             train_sampler = WeightedRandomSampler(sampler_weights, len(train_data), replacement=True)
     else:
         train_sampler = DistributedSampler(train_data)
-    train_dataloader = DataLoader(train_data, sampler=train_sampler, 
+    train_dataloader = DataLoader(train_data, sampler=train_sampler,
                                   batch_size=args.train_batch_size)
 
     # test set
@@ -579,7 +589,7 @@ def evaluate_fast(test_dataloader, model, device, n_gpu, args):
     return -1
 
 
-def evaluate(test_dataloader, model, device, n_gpu, nb_tr_steps, tr_loss, epoch, 
+def evaluate(test_dataloader, model, device, n_gpu, nb_tr_steps, tr_loss, epoch,
              global_step, output_log_file, global_best_acc, args):
 
     model.eval()
@@ -660,6 +670,17 @@ def evaluate(test_dataloader, model, device, n_gpu, nb_tr_steps, tr_loss, epoch,
                   'aspect_Macro_AUC': aspect_Macro_AUC,
                   'sentiment_Acc': sentiment_Acc,
                   'sentiment_Macro_AUC': sentiment_Macro_AUC}
+    elif args.task_name in ["fiqa_headline", "fiqa_post"]:
+        aspect_acc, aspect_f1, sentiment_acc = fiqa_eval(y_true, y_pred, score)
+        result = {'epoch': epoch,
+                  'global_step': global_step,
+                  'loss': loss_tr,
+                  'test_loss': test_loss,
+                  'test_accuracy': test_accuracy,
+                  'aspect_acc': aspect_acc,
+                  'aspect_f1': aspect_f1,
+                  'sentiment_acc': sentiment_acc
+                  }
     else:
         aspect_P, aspect_R, aspect_F = semeval_PRF(y_true, y_pred)
         sentiment_Acc_4_classes = semeval_Acc(y_true, y_pred, score, 4)
@@ -690,6 +711,10 @@ def evaluate(test_dataloader, model, device, n_gpu, nb_tr_steps, tr_loss, epoch,
             if aspect_strict_Acc > global_best_acc:
                 torch.save(model.state_dict(), args.output_dir + "best_checkpoint.bin")
                 global_best_acc = aspect_strict_Acc
+        elif args.task_name in ["fiqa_headline", "fiqa_post"]:
+            if sentiment_acc > global_best_acc:
+                torch.save(model.state_dict(), args.output_dir + "best_checkpoint.bin")
+                global_best_acc = sentiment_acc
         else:
             if aspect_F > global_best_acc:
                 torch.save(model.state_dict(), args.output_dir + "best_checkpoint.bin")

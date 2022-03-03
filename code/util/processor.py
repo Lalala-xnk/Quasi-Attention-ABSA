@@ -143,27 +143,26 @@ class Semeval_NLI_M_Processor(DataProcessor):
         return examples
 
 
-class Semeval_Laptop_Processor(DataProcessor):
-    """Processor for the Semeval 2014 data set."""
+class FiqaProcessor(DataProcessor):
 
     def get_train_examples(self, data_dir):
         """See base class."""
-        train_data = pd.read_csv(os.path.join(data_dir, "train_laptop.csv"),header=None,sep="\t").values
+        train_data = pd.read_csv(os.path.join(data_dir, "train_headline.csv")).values
         return self._create_examples(train_data, "train")
 
     def get_dev_examples(self, data_dir):
         """See base class."""
-        dev_data = pd.read_csv(os.path.join(data_dir, "dev_laptop.csv"),header=None,sep="\t").values
+        dev_data = pd.read_csv(os.path.join(data_dir, "dev_NLI_M.csv")).values
         return self._create_examples(dev_data, "dev")
 
     def get_test_examples(self, data_dir):
         """See base class."""
-        test_data = pd.read_csv(os.path.join(data_dir, "test_laptop.csv"),header=None,sep="\t").values
+        test_data = pd.read_csv(os.path.join(data_dir, "test_deadline.csv")).values
         return self._create_examples(test_data, "test")
 
     def get_labels(self):
         """See base class."""
-        return ['positive', 'neutral', 'negative', 'conflict', 'none']
+        return []
 
     def _create_examples(self, lines, set_type, debug=False):
         """Creates examples for the training and dev sets."""
@@ -171,9 +170,9 @@ class Semeval_Laptop_Processor(DataProcessor):
         for (i, line) in enumerate(lines):
           #  if i>50:break
             guid = "%s-%s" % (set_type, i)
-            text_a = convert_to_unicode(str(line[3]))
-            text_b = convert_to_unicode(str(line[2]))
-            label = convert_to_unicode(str(line[1]))
+            text_a = convert_to_unicode(str(line[4]))
+            text_b = convert_to_unicode(str(line[3]))
+            label = float(line[2])
             if i==0 and debug:
                 print(i)
                 print("guid=",guid)
