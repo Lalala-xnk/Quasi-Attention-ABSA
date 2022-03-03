@@ -141,3 +141,45 @@ class Semeval_NLI_M_Processor(DataProcessor):
             examples.append(
                 InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
         return examples
+
+
+class Semeval_Laptop_Processor(DataProcessor):
+    """Processor for the Semeval 2014 data set."""
+
+    def get_train_examples(self, data_dir):
+        """See base class."""
+        train_data = pd.read_csv(os.path.join(data_dir, "train_laptop.csv"),header=None,sep="\t").values
+        return self._create_examples(train_data, "train")
+
+    def get_dev_examples(self, data_dir):
+        """See base class."""
+        dev_data = pd.read_csv(os.path.join(data_dir, "dev_laptop.csv"),header=None,sep="\t").values
+        return self._create_examples(dev_data, "dev")
+
+    def get_test_examples(self, data_dir):
+        """See base class."""
+        test_data = pd.read_csv(os.path.join(data_dir, "test_laptop.csv"),header=None,sep="\t").values
+        return self._create_examples(test_data, "test")
+
+    def get_labels(self):
+        """See base class."""
+        return ['positive', 'neutral', 'negative', 'conflict', 'none']
+
+    def _create_examples(self, lines, set_type, debug=False):
+        """Creates examples for the training and dev sets."""
+        examples = []
+        for (i, line) in enumerate(lines):
+          #  if i>50:break
+            guid = "%s-%s" % (set_type, i)
+            text_a = convert_to_unicode(str(line[3]))
+            text_b = convert_to_unicode(str(line[2]))
+            label = convert_to_unicode(str(line[1]))
+            if i==0 and debug:
+                print(i)
+                print("guid=",guid)
+                print("text_a=",text_a)
+                print("text_b=",text_b)
+                print("label=",label)
+            examples.append(
+                InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
+        return examples
