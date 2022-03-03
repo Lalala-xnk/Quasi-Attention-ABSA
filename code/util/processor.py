@@ -157,7 +157,7 @@ class FiqaProcessor(DataProcessor):
 
     def get_test_examples(self, data_dir):
         """See base class."""
-        test_data = pd.read_csv(os.path.join(data_dir, "test_deadline.csv")).values
+        test_data = pd.read_csv(os.path.join(data_dir, "test_headline.csv")).values
         return self._create_examples(test_data, "test")
 
     def get_labels(self):
