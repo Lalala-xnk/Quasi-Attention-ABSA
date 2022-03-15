@@ -234,9 +234,9 @@ def system_setups(args):
                 args.max_seq_length, bert_config.max_position_embeddings))
 
     # not preloading
-    if os.path.exists(args.output_dir) and os.listdir(args.output_dir):
-        raise ValueError("Output directory ({}) already exists and is not empty.".format(args.output_dir))
-    os.makedirs(args.output_dir, exist_ok=True)
+    # if os.path.exists(args.output_dir) and os.listdir(args.output_dir):
+    #     raise ValueError("Output directory ({}) already exists and is not empty.".format(args.output_dir))
+    # os.makedirs(args.output_dir, exist_ok=True)
 
     output_log_file = os.path.join(args.output_dir, "log.txt")
     print("output_log_file=", output_log_file)
