@@ -241,7 +241,7 @@ def system_setups(args):
     output_log_file = os.path.join(args.output_dir, "log.txt")
     print("output_log_file=", output_log_file)
 
-    with open(output_log_file, "w") as writer:
+    with open(output_log_file, "w+") as writer:
         writer.write("epoch\tglobal_step\tloss\tt_loss\tt_acc\n")
 
     return device, n_gpu, output_log_file
