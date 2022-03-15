@@ -243,11 +243,11 @@ def fiqa_eval(y_true, y_pred):
     print(y_true)
     print(y_pred)
     for i in range(len(y_true)):
-        if float(y_true[i]) == 100.0:
-            if float(y_pred[i]) >= threshold:
+        if y_true[i] == 100.0:
+            if y_pred[i][0] >= threshold:
                 cnt_true += 1
         else:
-            if float(y_pred[i]) < threshold:
+            if y_pred[i][0] < threshold:
                 cnt_true += 1
     aspect_acc = cnt_true / len(y_true)
 
