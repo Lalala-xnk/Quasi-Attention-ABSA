@@ -376,8 +376,8 @@ def evaluate(test_dataloader, model, device, n_gpu, nb_tr_steps, tr_loss, epoch,
         # test_accuracy = test_accuracy / nb_test_examples
 
     # we follow previous works in calculating the metrics
-    # y_true = np.concatenate(y_true, axis=0)
-    # y_pred = np.concatenate(y_pred, axis=0)
+    y_true = np.concatenate(y_true, axis=0)
+    y_pred = np.concatenate(y_pred, axis=0)
     # score = np.concatenate(score, axis=0)
 
     logger.info("***** Evaluation results *****")
