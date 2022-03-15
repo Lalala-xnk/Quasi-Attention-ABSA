@@ -634,3 +634,66 @@ class QACGBertForSequenceScore(nn.Module):
         sensitivity_grads = torch.autograd.grad(scorer_out, embedding_output,
                                                 grad_outputs=sensitivity_grads)[0]
         return sensitivity_grads
+
+
+class QACGBertForSequenceScoreClassification(nn.Module):
+
+    def __init__(self, config, init_weight=False, init_lrp=False):
+        super(QACGBertForSequenceScoreClassification, self).__init__()
+        self.bert = ContextBertModel(config)
+        self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        self.scorer = nn.Linear(config.hidden_size, 1)
+        self.num_head = config.num_attention_heads
+        self.config = config
+        if init_weight:
+            print("init_weight = True")
+
+            def init_weights(module):
+                if isinstance(module, (nn.Linear, nn.Embedding)):
+                    # Slightly different from the TF version which uses truncated_normal for initialization
+                    # cf https://github.com/pytorch/pytorch/pull/5617
+                    module.weight.data.normal_(mean=0.0, std=config.initializer_range)
+                elif isinstance(module, BERTLayerNorm):
+                    module.beta.data.normal_(mean=0.0, std=config.initializer_range)
+                    module.gamma.data.normal_(mean=0.0, std=config.initializer_range)
+                if isinstance(module, nn.Linear):
+                    if module.bias is not None:
+                        module.bias.data.zero_()
+
+            self.apply(init_weights)
+
+        init_perturbation = 1e-2
+        for layer_module in self.bert.encoder.layer:
+            layer_module.attention.self.lambda_q_context_layer.weight.data.normal_(mean=0.0, std=init_perturbation)
+            layer_module.attention.self.lambda_k_context_layer.weight.data.normal_(mean=0.0, std=init_perturbation)
+            layer_module.attention.self.lambda_q_query_layer.weight.data.normal_(mean=0.0, std=init_perturbation)
+            layer_module.attention.self.lambda_k_key_layer.weight.data.normal_(mean=0.0, std=init_perturbation)
+
+        if init_lrp:
+            print("init_lrp = True")
+            init_hooks_lrp(self)
+
+    def forward(self, input_ids, token_type_ids, attention_mask, seq_lens,
+                device=None, labels=None,
+                context_ids=None):
+
+        pooled_output, all_new_attention_probs, all_attention_probs, all_quasi_attention_prob, all_lambda_context = \
+            self.bert(input_ids, token_type_ids, attention_mask,
+                      device, context_ids)
+
+        pooled_output = self.dropout(pooled_output)
+
+        score = self.scorer(pooled_output)
+        if labels is not None:
+            loss_fct = MSELoss()
+            loss = loss_fct(score, labels)
+            return loss, score, all_new_attention_probs, all_attention_probs, all_quasi_attention_prob, all_lambda_context
+        else:
+            return score
+
+    def backward_gradient(self, sensitivity_grads):
+        scorer_out = func_activations['model.scorer']
+        embedding_output = func_activations['model.bert.embeddings']
+        sensitivity_grads = torch.autograd.grad(scorer_out, embedding_output,
+                                                grad_outputs=sensitivity_grads)[0]
+        return sensitivity_grads
