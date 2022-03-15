@@ -238,7 +238,7 @@ def fiqa_eval(y_true, y_pred):
     # aspect_acc, aspect_f1, sentiment_acc = 0, 0, 0
     threshold = 5
     cnt_true = 0
-    print(y_true[1])
+    print(len(y_true))
     print(type(y_true))
     for i in range(len(y_true)):
         if y_true[i] == 100.0:
