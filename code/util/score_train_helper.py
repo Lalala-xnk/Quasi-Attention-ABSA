@@ -387,13 +387,13 @@ def evaluate(test_dataloader, model, device, n_gpu, nb_tr_steps, tr_loss, epoch,
     else:
         loss_tr = tr_loss/nb_tr_steps
 
-    # aspect_acc, aspect_f1, sentiment_acc = fiqa_eval(y_true, y_pred, score)
+    aspect_acc = fiqa_eval(y_true, y_pred)
     result = {'epoch': epoch,
               'global_step': global_step,
               'loss': loss_tr,
               'test_loss': test_loss,
               # 'test_accuracy': test_accuracy,
-              # 'aspect_acc': aspect_acc,
+              'aspect_acc': aspect_acc,
               # 'aspect_f1': aspect_f1,
               # 'sentiment_acc': sentiment_acc
               }
