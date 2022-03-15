@@ -240,6 +240,7 @@ def fiqa_eval(y_true, y_pred):
     cnt_true = 0
     print(len(y_true))
     print(type(y_true))
+    print((y_true[0] == 100.0))
     for i in range(len(y_true)):
         if y_true[i] == 100.0:
             if y_pred[i] >= threshold:
