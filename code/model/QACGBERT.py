@@ -620,7 +620,11 @@ class QACGBertForSequenceScore(nn.Module):
 
         pooled_output = self.dropout(pooled_output)
 
-        score = self.scorer(pooled_output)
+        tmp_score = self.scorer(pooled_output)
+        if tmp_score > 1:
+            score = 1.5
+        else:
+            score = tmp_score
         if labels is not None:
             loss_fct = nn.L1Loss()
             loss = loss_fct(score, labels)
