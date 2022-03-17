@@ -622,7 +622,7 @@ class QACGBertForSequenceScore(nn.Module):
 
         score = self.scorer(pooled_output)
         if labels is not None:
-            loss_fct = MSELoss()
+            loss_fct = nn.L1Loss()
             loss = loss_fct(score, labels)
             return loss, score, all_new_attention_probs, all_attention_probs, all_quasi_attention_prob, all_lambda_context
         else:

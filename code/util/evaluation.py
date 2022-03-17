@@ -238,14 +238,14 @@ def semeval_Acc(y_true, y_pred, score, classes=4):
 
 def fiqa_eval(y_true, y_pred):
     # aspect_acc, aspect_f1, sentiment_acc = 0, 0, 0
-    threshold = 5
+    threshold = 1
     cnt_true = 0
     y_true = y_true[0].tolist()
     y_pred = y_pred[0].tolist()
     print(y_true)
     print(y_pred)
     for i in range(len(y_true)):
-        if y_true[i] == 10.0:
+        if y_true[i] == 1.5:
             if y_pred[i][0] >= threshold:
                 cnt_true += 1
         else:
