@@ -623,7 +623,7 @@ class QACGBertForSequenceScore(nn.Module):
         tmp_score = self.scorer(pooled_output)
         score = torch.where(tmp_score > 1, torch.full([len(tmp_score), 1], 1.5, device=tmp_score.device), tmp_score)
         if labels is not None:
-            loss_fct = nn.L1Loss()
+            loss_fct = MSELoss()
             loss = loss_fct(score, labels)
             return loss, score, all_new_attention_probs, all_attention_probs, all_quasi_attention_prob, all_lambda_context
         else:
