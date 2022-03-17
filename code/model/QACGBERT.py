@@ -622,6 +622,7 @@ class QACGBertForSequenceScore(nn.Module):
 
         tmp_score = self.scorer(pooled_output)
         print('tmp_score', tmp_score)
+        print('labels', labels)
         if tmp_score > 1:
             score = 1.5
         else:
