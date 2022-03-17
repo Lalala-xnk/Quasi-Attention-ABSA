@@ -123,6 +123,8 @@ def semeval_PRF(y_true, y_pred):
     s_all=0
     g_all=0
     s_g_all=0
+    print(y_true)
+    print(y_pred)
     for i in range(len(y_pred)//5):
         s=set()
         g=set()
