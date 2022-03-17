@@ -1,104 +1,786 @@
-1220,1168,1.5,stock,shire says internal synergy goals from baxalta deal higher
-1221,1168,0.287,corporate,shire says internal synergy goals from baxalta deal higher
-1222,1168,1.5,economy,shire says internal synergy goals from baxalta deal higher
-1223,1168,1.5,market,shire says internal synergy goals from baxalta deal higher
-1224,1172,1.5,stock,"european shares plunge, roiled by bhp and oil; hopes turn to ecb"
-1225,1172,1.5,corporate,"european shares plunge, roiled by bhp and oil; hopes turn to ecb"
-1226,1172,-0.736,economy,"european shares plunge, roiled by bhp and oil; hopes turn to ecb"
-1227,1172,1.5,market,"european shares plunge, roiled by bhp and oil; hopes turn to ecb"
-1228,1183,0.596,stock,morrisons and debenhams surprise city with christmas bounce back
-1229,1183,1.5,corporate,morrisons and debenhams surprise city with christmas bounce back
-1230,1183,1.5,economy,morrisons and debenhams surprise city with christmas bounce back
-1231,1183,1.5,market,morrisons and debenhams surprise city with christmas bounce back
-1232,1190,1.5,stock,"britain's ftse falls back with ashtead, commodities under pressure"
-1233,1190,1.5,corporate,"britain's ftse falls back with ashtead, commodities under pressure"
-1234,1190,1.5,economy,"britain's ftse falls back with ashtead, commodities under pressure"
-1235,1190,-0.59,market,"britain's ftse falls back with ashtead, commodities under pressure"
-1236,1192,1.5,stock,tesco shares jump 6% after christmas sales beat expectations
-1237,1192,0.814,corporate,tesco shares jump 6% after christmas sales beat expectations
-1238,1192,1.5,economy,tesco shares jump 6% after christmas sales beat expectations
-1239,1192,1.5,market,tesco shares jump 6% after christmas sales beat expectations
-1240,1195,1.5,stock,"ceos of bpm, ubi meet italy econ minister as m&a talk heats up"
-1241,1195,0.133,corporate,"ceos of bpm, ubi meet italy econ minister as m&a talk heats up"
-1242,1195,1.5,economy,"ceos of bpm, ubi meet italy econ minister as m&a talk heats up"
-1243,1195,1.5,market,"ceos of bpm, ubi meet italy econ minister as m&a talk heats up"
-1244,1200,0.135,stock,companieshome retail trims gains but is considered 'in play'
-1245,1200,1.5,corporate,companieshome retail trims gains but is considered 'in play'
-1246,1200,1.5,economy,companieshome retail trims gains but is considered 'in play'
-1247,1200,1.5,market,companieshome retail trims gains but is considered 'in play'
-1248,1202,1.5,stock,philippines' san miguel says to partner with kirin if it bids for sabmiller's ...
-1249,1202,0.38349999999999995,corporate,philippines' san miguel says to partner with kirin if it bids for sabmiller's ...
-1250,1202,1.5,economy,philippines' san miguel says to partner with kirin if it bids for sabmiller's ...
-1251,1202,1.5,market,philippines' san miguel says to partner with kirin if it bids for sabmiller's ...
-1252,1203,1.5,stock,investors remain skeptical about shell-bg deal
-1253,1203,-0.266,corporate,investors remain skeptical about shell-bg deal
-1254,1203,1.5,economy,investors remain skeptical about shell-bg deal
-1255,1203,1.5,market,investors remain skeptical about shell-bg deal
-1256,1210,0.487,stock,marketsshire up 2.5% and baxalta up 6% on $32bn deal
-1257,1210,1.5,corporate,marketsshire up 2.5% and baxalta up 6% on $32bn deal
-1258,1210,1.5,economy,marketsshire up 2.5% and baxalta up 6% on $32bn deal
-1259,1210,1.5,market,marketsshire up 2.5% and baxalta up 6% on $32bn deal
-1260,1217,-0.192,stock,shire share price under pressure after $32bn baxalta deal
-1261,1217,1.5,corporate,shire share price under pressure after $32bn baxalta deal
-1262,1217,1.5,economy,shire share price under pressure after $32bn baxalta deal
-1263,1217,1.5,market,shire share price under pressure after $32bn baxalta deal
-1264,1218,1.5,stock,valeant names interim leader as ceo remains hospitalized
-1265,1218,1.5,corporate,valeant names interim leader as ceo remains hospitalized
-1266,1218,1.5,economy,valeant names interim leader as ceo remains hospitalized
-1267,1218,1.5,market,valeant names interim leader as ceo remains hospitalized
-1268,1222,1.5,stock,valeant said to name new ceo with pearson still hospitalized
-1269,1222,0.015,corporate,valeant said to name new ceo with pearson still hospitalized
-1270,1222,1.5,economy,valeant said to name new ceo with pearson still hospitalized
-1271,1222,1.5,market,valeant said to name new ceo with pearson still hospitalized
-1272,1223,0.905,stock,shares in bae systems hit 10-month high on rating upgrade
-1273,1223,1.5,corporate,shares in bae systems hit 10-month high on rating upgrade
-1274,1223,1.5,economy,shares in bae systems hit 10-month high on rating upgrade
-1275,1223,1.5,market,shares in bae systems hit 10-month high on rating upgrade
-1276,1224,0.236,stock,japan's asahi to submit bid next week for sabmiller's grolsch and peroni - yomiuri
-1277,1224,1.5,corporate,japan's asahi to submit bid next week for sabmiller's grolsch and peroni - yomiuri
-1278,1224,1.5,economy,japan's asahi to submit bid next week for sabmiller's grolsch and peroni - yomiuri
-1279,1224,1.5,market,japan's asahi to submit bid next week for sabmiller's grolsch and peroni - yomiuri
-1280,1230,1.5,stock,companiesdixons carphone to close 134 uk stores as sales jump
-1281,1230,0.144,corporate,companiesdixons carphone to close 134 uk stores as sales jump
-1282,1230,1.5,economy,companiesdixons carphone to close 134 uk stores as sales jump
-1283,1230,1.5,market,companiesdixons carphone to close 134 uk stores as sales jump
-1284,1239,1.5,stock,"broker tips: rbs, croda, sage"
-1285,1239,0.387,corporate,"broker tips: rbs, croda, sage"
-1286,1239,1.5,economy,"broker tips: rbs, croda, sage"
-1287,1239,1.5,market,"broker tips: rbs, croda, sage"
-1288,1241,1.5,stock,shell share price: standard life announce position against bg acquisition
-1289,1241,-0.1165,corporate,shell share price: standard life announce position against bg acquisition
-1290,1241,1.5,economy,shell share price: standard life announce position against bg acquisition
-1291,1241,1.5,market,shell share price: standard life announce position against bg acquisition
-1292,1242,-0.542,stock,tesco share price down as grocer faces sfo investigation outcome
-1293,1242,1.5,corporate,tesco share price down as grocer faces sfo investigation outcome
-1294,1242,1.5,economy,tesco share price down as grocer faces sfo investigation outcome
-1295,1242,1.5,market,tesco share price down as grocer faces sfo investigation outcome
-1296,1243,1.5,stock,"britain's ftse outperforms europe, royal mail and tesco rise"
-1297,1243,1.5,corporate,"britain's ftse outperforms europe, royal mail and tesco rise"
-1298,1243,1.5,economy,"britain's ftse outperforms europe, royal mail and tesco rise"
-1299,1243,0.439,market,"britain's ftse outperforms europe, royal mail and tesco rise"
-1300,1256,1.5,stock,greene king's third quarter sales boosted by festive season
-1301,1256,0.363,corporate,greene king's third quarter sales boosted by festive season
-1302,1256,1.5,economy,greene king's third quarter sales boosted by festive season
-1303,1256,1.5,market,greene king's third quarter sales boosted by festive season
-1304,1283,1.5,stock,intercontinental hotels group share price climbs on $1.5bn special dividend
-1305,1283,0.631,corporate,intercontinental hotels group share price climbs on $1.5bn special dividend
-1306,1283,1.5,economy,intercontinental hotels group share price climbs on $1.5bn special dividend
-1307,1283,1.5,market,intercontinental hotels group share price climbs on $1.5bn special dividend
-1308,1284,1.5,stock,amazon to attack uk grocery market with morrisons deal
-1309,1284,1.5,corporate,amazon to attack uk grocery market with morrisons deal
-1310,1284,1.5,economy,amazon to attack uk grocery market with morrisons deal
-1311,1284,0.333,market,amazon to attack uk grocery market with morrisons deal
-1312,1287,1.5,stock,astrazeneca share price: acerta deal pays off with orphan drug status
-1313,1287,0.495,corporate,astrazeneca share price: acerta deal pays off with orphan drug status
-1314,1287,1.5,economy,astrazeneca share price: acerta deal pays off with orphan drug status
-1315,1287,1.5,market,astrazeneca share price: acerta deal pays off with orphan drug status
-1316,1288,1.5,stock,"bhp billiton posts big loss, slashes dividend"
-1317,1288,-0.938,corporate,"bhp billiton posts big loss, slashes dividend"
-1318,1288,1.5,economy,"bhp billiton posts big loss, slashes dividend"
-1319,1288,1.5,market,"bhp billiton posts big loss, slashes dividend"
-1320,1289,1.5,stock,merged lse and deutsche bã¶rse would be led by germany's kengeter
-1321,1289,0.136,corporate,merged lse and deutsche bã¶rse would be led by germany's kengeter
-1322,1289,1.5,economy,merged lse and deutsche bã¶rse would be led by germany's kengeter
-1323,1289,1.5,market,merged lse and deutsche bã¶rse would be led by germany's kengeter
+0,1,1.5,stock,royal mail chairman donald brydon set to step down
+1,1,1.5,economy,royal mail chairman donald brydon set to step down
+2,1,-0.374,corporate,royal mail chairman donald brydon set to step down
+3,1,-0.374,corporate,royal mail chairman donald brydon set to step down
+4,1,-0.374,corporate,royal mail chairman donald brydon set to step down
+5,1,1.5,market,royal mail chairman donald brydon set to step down
+6,7,1.5,stock,stakes high for astrazeneca heart drug facing tough competition
+7,7,1.5,economy,stakes high for astrazeneca heart drug facing tough competition
+8,7,-0.24,corporate,stakes high for astrazeneca heart drug facing tough competition
+9,7,-0.24,corporate,stakes high for astrazeneca heart drug facing tough competition
+10,7,-0.24,corporate,stakes high for astrazeneca heart drug facing tough competition
+11,7,1.5,market,stakes high for astrazeneca heart drug facing tough competition
+12,8,1.5,stock,update 1-dairy crest loses a third of morrisons milk contract
+13,8,1.5,economy,update 1-dairy crest loses a third of morrisons milk contract
+14,8,-0.161,corporate,update 1-dairy crest loses a third of morrisons milk contract
+15,8,-0.161,corporate,update 1-dairy crest loses a third of morrisons milk contract
+16,8,-0.161,corporate,update 1-dairy crest loses a third of morrisons milk contract
+17,8,1.5,market,update 1-dairy crest loses a third of morrisons milk contract
+18,22,1.5,stock,insight hires aviva's david hillier for multi-asset team
+19,22,1.5,economy,insight hires aviva's david hillier for multi-asset team
+20,22,0.137,corporate,insight hires aviva's david hillier for multi-asset team
+21,22,0.137,corporate,insight hires aviva's david hillier for multi-asset team
+22,22,0.137,corporate,insight hires aviva's david hillier for multi-asset team
+23,22,1.5,market,insight hires aviva's david hillier for multi-asset team
+24,30,1.5,stock,primark racks up a happy christmas after strong sales
+25,30,1.5,economy,primark racks up a happy christmas after strong sales
+26,30,0.704,corporate,primark racks up a happy christmas after strong sales
+27,30,0.704,corporate,primark racks up a happy christmas after strong sales
+28,30,0.704,corporate,primark racks up a happy christmas after strong sales
+29,30,1.5,market,primark racks up a happy christmas after strong sales
+30,31,0.446,stock,update 1-pearson expects to grow this year after solid end to 2014
+31,31,0.446,stock,update 1-pearson expects to grow this year after solid end to 2014
+32,31,0.446,stock,update 1-pearson expects to grow this year after solid end to 2014
+33,31,1.5,economy,update 1-pearson expects to grow this year after solid end to 2014
+34,31,1.5,corporate,update 1-pearson expects to grow this year after solid end to 2014
+35,31,1.5,market,update 1-pearson expects to grow this year after solid end to 2014
+36,32,1.5,stock,tesco sells blinkbox and broadband service to talktalk
+37,32,1.5,economy,tesco sells blinkbox and broadband service to talktalk
+38,32,0.164,corporate,tesco sells blinkbox and broadband service to talktalk
+39,32,0.164,corporate,tesco sells blinkbox and broadband service to talktalk
+40,32,0.164,corporate,tesco sells blinkbox and broadband service to talktalk
+41,32,1.5,market,tesco sells blinkbox and broadband service to talktalk
+42,36,1.5,stock,unilever profit rises despite sales slump in china
+43,36,1.5,economy,unilever profit rises despite sales slump in china
+44,36,0.213,corporate,unilever profit rises despite sales slump in china
+45,36,0.213,corporate,unilever profit rises despite sales slump in china
+46,36,0.213,corporate,unilever profit rises despite sales slump in china
+47,36,1.5,market,unilever profit rises despite sales slump in china
+48,38,0.389,stock,tesco leads leap in ftse 100; marks & spencer drops
+49,38,0.389,stock,tesco leads leap in ftse 100; marks & spencer drops
+50,38,0.389,stock,tesco leads leap in ftse 100; marks & spencer drops
+51,38,1.5,economy,tesco leads leap in ftse 100; marks & spencer drops
+52,38,1.5,corporate,tesco leads leap in ftse 100; marks & spencer drops
+53,38,1.5,market,tesco leads leap in ftse 100; marks & spencer drops
+54,40,1.5,stock,royal dutch shell profit rises; dividend up 4%
+55,40,1.5,economy,royal dutch shell profit rises; dividend up 4%
+56,40,0.65,corporate,royal dutch shell profit rises; dividend up 4%
+57,40,0.65,corporate,royal dutch shell profit rises; dividend up 4%
+58,40,0.65,corporate,royal dutch shell profit rises; dividend up 4%
+59,40,1.5,market,royal dutch shell profit rises; dividend up 4%
+60,47,1.5,stock,morning agenda: shire's deal for nps
+61,47,1.5,economy,morning agenda: shire's deal for nps
+62,47,0.195,corporate,morning agenda: shire's deal for nps
+63,47,0.195,corporate,morning agenda: shire's deal for nps
+64,47,0.195,corporate,morning agenda: shire's deal for nps
+65,47,1.5,market,morning agenda: shire's deal for nps
+66,48,1.5,stock,carnival corporation and china merchants group sign memo of understanding ...
+67,48,1.5,economy,carnival corporation and china merchants group sign memo of understanding ...
+68,48,0.119,corporate,carnival corporation and china merchants group sign memo of understanding ...
+69,48,0.119,corporate,carnival corporation and china merchants group sign memo of understanding ...
+70,48,0.119,corporate,carnival corporation and china merchants group sign memo of understanding ...
+71,48,1.5,market,carnival corporation and china merchants group sign memo of understanding ...
+72,49,1.5,stock,teva: fda approves generic version of astrazeneca heartburn drug
+73,49,1.5,economy,teva: fda approves generic version of astrazeneca heartburn drug
+74,49,0.359,corporate,teva: fda approves generic version of astrazeneca heartburn drug
+75,49,0.359,corporate,teva: fda approves generic version of astrazeneca heartburn drug
+76,49,0.359,corporate,teva: fda approves generic version of astrazeneca heartburn drug
+77,49,1.5,market,teva: fda approves generic version of astrazeneca heartburn drug
+78,52,1.5,stock,passengers rise at easyjet and aer lingus
+79,52,1.5,economy,passengers rise at easyjet and aer lingus
+80,52,0.329,corporate,passengers rise at easyjet and aer lingus
+81,52,0.329,corporate,passengers rise at easyjet and aer lingus
+82,52,0.329,corporate,passengers rise at easyjet and aer lingus
+83,52,1.5,market,passengers rise at easyjet and aer lingus
+84,55,1.5,stock,tesco abandons video-streaming ambitions in blinkbox sale
+85,55,1.5,economy,tesco abandons video-streaming ambitions in blinkbox sale
+86,55,-0.265,corporate,tesco abandons video-streaming ambitions in blinkbox sale
+87,55,-0.265,corporate,tesco abandons video-streaming ambitions in blinkbox sale
+88,55,-0.265,corporate,tesco abandons video-streaming ambitions in blinkbox sale
+89,55,1.5,market,tesco abandons video-streaming ambitions in blinkbox sale
+90,56,1.5,stock,"fda approves nps drug, in move validating shire takeover deal"
+91,56,1.5,economy,"fda approves nps drug, in move validating shire takeover deal"
+92,56,0.332,corporate,"fda approves nps drug, in move validating shire takeover deal"
+93,56,0.332,corporate,"fda approves nps drug, in move validating shire takeover deal"
+94,56,0.332,corporate,"fda approves nps drug, in move validating shire takeover deal"
+95,56,1.5,market,"fda approves nps drug, in move validating shire takeover deal"
+96,60,1.5,stock,ocwen reaches settlement with california regulator
+97,60,1.5,economy,ocwen reaches settlement with california regulator
+98,60,0.171,corporate,ocwen reaches settlement with california regulator
+99,60,0.171,corporate,ocwen reaches settlement with california regulator
+100,60,0.171,corporate,ocwen reaches settlement with california regulator
+101,60,1.5,market,ocwen reaches settlement with california regulator
+102,67,1.5,stock,morrisons faces festive sales test
+103,67,1.5,economy,morrisons faces festive sales test
+104,67,-0.113,corporate,morrisons faces festive sales test
+105,67,-0.113,corporate,morrisons faces festive sales test
+106,67,-0.113,corporate,morrisons faces festive sales test
+107,67,1.5,market,morrisons faces festive sales test
+108,69,-0.373,stock,tesco share price dips as blinkbox books closes ending supermarket's digital ...
+109,69,-0.373,stock,tesco share price dips as blinkbox books closes ending supermarket's digital ...
+110,69,-0.373,stock,tesco share price dips as blinkbox books closes ending supermarket's digital ...
+111,69,1.5,economy,tesco share price dips as blinkbox books closes ending supermarket's digital ...
+112,69,1.5,corporate,tesco share price dips as blinkbox books closes ending supermarket's digital ...
+113,69,1.5,market,tesco share price dips as blinkbox books closes ending supermarket's digital ...
+114,70,1.5,stock,shire to buy nps for $5.2 billion to boost rare disease drugs
+115,70,1.5,economy,shire to buy nps for $5.2 billion to boost rare disease drugs
+116,70,0.235,corporate,shire to buy nps for $5.2 billion to boost rare disease drugs
+117,70,0.235,corporate,shire to buy nps for $5.2 billion to boost rare disease drugs
+118,70,0.235,corporate,shire to buy nps for $5.2 billion to boost rare disease drugs
+119,70,1.5,market,shire to buy nps for $5.2 billion to boost rare disease drugs
+120,76,1.5,stock,astrazeneca's medimmune inks licensing deal with omnis pharmaceuticals
+121,76,1.5,economy,astrazeneca's medimmune inks licensing deal with omnis pharmaceuticals
+122,76,0.295,corporate,astrazeneca's medimmune inks licensing deal with omnis pharmaceuticals
+123,76,0.295,corporate,astrazeneca's medimmune inks licensing deal with omnis pharmaceuticals
+124,76,0.295,corporate,astrazeneca's medimmune inks licensing deal with omnis pharmaceuticals
+125,76,1.5,market,astrazeneca's medimmune inks licensing deal with omnis pharmaceuticals
+126,78,1.5,stock,fda approves shire's vyvanse for binge-eating disorder
+127,78,1.5,economy,fda approves shire's vyvanse for binge-eating disorder
+128,78,0.291,corporate,fda approves shire's vyvanse for binge-eating disorder
+129,78,0.291,corporate,fda approves shire's vyvanse for binge-eating disorder
+130,78,0.291,corporate,fda approves shire's vyvanse for binge-eating disorder
+131,78,1.5,market,fda approves shire's vyvanse for binge-eating disorder
+132,82,0.245,stock,companies thetrainline.com announces arrival of london ipo
+133,82,0.245,stock,companies thetrainline.com announces arrival of london ipo
+134,82,0.245,stock,companies thetrainline.com announces arrival of london ipo
+135,82,1.5,economy,companies thetrainline.com announces arrival of london ipo
+136,82,1.5,corporate,companies thetrainline.com announces arrival of london ipo
+137,82,1.5,market,companies thetrainline.com announces arrival of london ipo
+138,87,1.5,stock,breakingviews: iag can pay more for aer lingus
+139,87,1.5,economy,breakingviews: iag can pay more for aer lingus
+140,87,0.12,corporate,breakingviews: iag can pay more for aer lingus
+141,87,0.12,corporate,breakingviews: iag can pay more for aer lingus
+142,87,0.12,corporate,breakingviews: iag can pay more for aer lingus
+143,87,1.5,market,breakingviews: iag can pay more for aer lingus
+144,88,0.719,stock,tesco share price jumps as q3 sales top estimates
+145,88,0.719,stock,tesco share price jumps as q3 sales top estimates
+146,88,0.719,stock,tesco share price jumps as q3 sales top estimates
+147,88,1.5,economy,tesco share price jumps as q3 sales top estimates
+148,88,1.5,corporate,tesco share price jumps as q3 sales top estimates
+149,88,1.5,market,tesco share price jumps as q3 sales top estimates
+150,90,0.282,stock,crh's concrete bid for holcim lafarge assets
+151,90,0.282,stock,crh's concrete bid for holcim lafarge assets
+152,90,0.282,stock,crh's concrete bid for holcim lafarge assets
+153,90,1.5,economy,crh's concrete bid for holcim lafarge assets
+154,90,1.5,corporate,crh's concrete bid for holcim lafarge assets
+155,90,1.5,market,crh's concrete bid for holcim lafarge assets
+156,94,0.975,stock,persimmon share price climbs on 23% rise in full-year revenue
+157,94,0.975,stock,persimmon share price climbs on 23% rise in full-year revenue
+158,94,0.975,stock,persimmon share price climbs on 23% rise in full-year revenue
+159,94,1.5,economy,persimmon share price climbs on 23% rise in full-year revenue
+160,94,1.5,corporate,persimmon share price climbs on 23% rise in full-year revenue
+161,94,1.5,market,persimmon share price climbs on 23% rise in full-year revenue
+162,96,1.5,stock,ruling sets lower limit on potential fine for bp
+163,96,1.5,economy,ruling sets lower limit on potential fine for bp
+164,96,-0.261,corporate,ruling sets lower limit on potential fine for bp
+165,96,-0.261,corporate,ruling sets lower limit on potential fine for bp
+166,96,-0.261,corporate,ruling sets lower limit on potential fine for bp
+167,96,1.5,market,ruling sets lower limit on potential fine for bp
+168,98,-0.526,stock,reed elsevier share price slides on underwhelming full-year results
+169,98,-0.526,stock,reed elsevier share price slides on underwhelming full-year results
+170,98,-0.526,stock,reed elsevier share price slides on underwhelming full-year results
+171,98,1.5,economy,reed elsevier share price slides on underwhelming full-year results
+172,98,1.5,corporate,reed elsevier share price slides on underwhelming full-year results
+173,98,1.5,market,reed elsevier share price slides on underwhelming full-year results
+174,99,0.021,stock,update 1-meggitt reiterates annual outlook after tough 2014
+175,99,0.021,stock,update 1-meggitt reiterates annual outlook after tough 2014
+176,99,0.021,stock,update 1-meggitt reiterates annual outlook after tough 2014
+177,99,1.5,economy,update 1-meggitt reiterates annual outlook after tough 2014
+178,99,1.5,corporate,update 1-meggitt reiterates annual outlook after tough 2014
+179,99,1.5,market,update 1-meggitt reiterates annual outlook after tough 2014
+180,100,1.5,stock,slump in weir leads ftse down from record high
+181,100,1.5,economy,slump in weir leads ftse down from record high
+182,100,1.5,corporate,slump in weir leads ftse down from record high
+183,100,-0.827,market,slump in weir leads ftse down from record high
+184,100,-0.827,market,slump in weir leads ftse down from record high
+185,100,-0.827,market,slump in weir leads ftse down from record high
+186,105,1.5,stock,bunzl lifts dividend again as acquisitions continue to boost profits
+187,105,1.5,economy,bunzl lifts dividend again as acquisitions continue to boost profits
+188,105,0.401,corporate,bunzl lifts dividend again as acquisitions continue to boost profits
+189,105,0.401,corporate,bunzl lifts dividend again as acquisitions continue to boost profits
+190,105,0.401,corporate,bunzl lifts dividend again as acquisitions continue to boost profits
+191,105,1.5,market,bunzl lifts dividend again as acquisitions continue to boost profits
+192,107,1.5,stock,refile-update 4-britain's lloyds to pay first dividend since rescue
+193,107,1.5,economy,refile-update 4-britain's lloyds to pay first dividend since rescue
+194,107,0.522,corporate,refile-update 4-britain's lloyds to pay first dividend since rescue
+195,107,0.522,corporate,refile-update 4-britain's lloyds to pay first dividend since rescue
+196,107,0.522,corporate,refile-update 4-britain's lloyds to pay first dividend since rescue
+197,107,1.5,market,refile-update 4-britain's lloyds to pay first dividend since rescue
+198,115,1.5,stock,glaxosmithkline set to complete $20 billion novartis asset swap next week
+199,115,1.5,economy,glaxosmithkline set to complete $20 billion novartis asset swap next week
+200,115,0.189,corporate,glaxosmithkline set to complete $20 billion novartis asset swap next week
+201,115,0.189,corporate,glaxosmithkline set to complete $20 billion novartis asset swap next week
+202,115,0.189,corporate,glaxosmithkline set to complete $20 billion novartis asset swap next week
+203,115,1.5,market,glaxosmithkline set to complete $20 billion novartis asset swap next week
+204,116,-0.854,stock,meggitt share price tumbles as profit falls in 'challenging year'
+205,116,-0.854,stock,meggitt share price tumbles as profit falls in 'challenging year'
+206,116,-0.854,stock,meggitt share price tumbles as profit falls in 'challenging year'
+207,116,1.5,economy,meggitt share price tumbles as profit falls in 'challenging year'
+208,116,1.5,corporate,meggitt share price tumbles as profit falls in 'challenging year'
+209,116,1.5,market,meggitt share price tumbles as profit falls in 'challenging year'
+210,123,1.5,stock,analyst views: astrazeneca shares have seen recent volatility; what will 2015 ...
+211,123,1.5,economy,analyst views: astrazeneca shares have seen recent volatility; what will 2015 ...
+212,123,1.5,corporate,analyst views: astrazeneca shares have seen recent volatility; what will 2015 ...
+213,123,-0.12,market,analyst views: astrazeneca shares have seen recent volatility; what will 2015 ...
+214,123,-0.12,market,analyst views: astrazeneca shares have seen recent volatility; what will 2015 ...
+215,123,-0.12,market,analyst views: astrazeneca shares have seen recent volatility; what will 2015 ...
+216,127,1.5,stock,arm royalties accelerate as smartphone market regains strength
+217,127,1.5,economy,arm royalties accelerate as smartphone market regains strength
+218,127,1.5,corporate,arm royalties accelerate as smartphone market regains strength
+219,127,0.571,market,arm royalties accelerate as smartphone market regains strength
+220,127,0.571,market,arm royalties accelerate as smartphone market regains strength
+221,127,0.571,market,arm royalties accelerate as smartphone market regains strength
+222,128,1.5,stock,conagra names former hillshire farms ceo connolly to top post
+223,128,1.5,economy,conagra names former hillshire farms ceo connolly to top post
+224,128,0.101,corporate,conagra names former hillshire farms ceo connolly to top post
+225,128,0.101,corporate,conagra names former hillshire farms ceo connolly to top post
+226,128,0.101,corporate,conagra names former hillshire farms ceo connolly to top post
+227,128,1.5,market,conagra names former hillshire farms ceo connolly to top post
+228,129,1.5,stock,bg group appoints new ceo one month early
+229,129,1.5,economy,bg group appoints new ceo one month early
+230,129,0.069,corporate,bg group appoints new ceo one month early
+231,129,0.069,corporate,bg group appoints new ceo one month early
+232,129,0.069,corporate,bg group appoints new ceo one month early
+233,129,1.5,market,bg group appoints new ceo one month early
+234,132,1.5,stock,"glencore cuts 2015 budget, plans to divest from lonmin"
+235,132,1.5,economy,"glencore cuts 2015 budget, plans to divest from lonmin"
+236,132,-0.314,corporate,"glencore cuts 2015 budget, plans to divest from lonmin"
+237,132,-0.314,corporate,"glencore cuts 2015 budget, plans to divest from lonmin"
+238,132,-0.314,corporate,"glencore cuts 2015 budget, plans to divest from lonmin"
+239,132,1.5,market,"glencore cuts 2015 budget, plans to divest from lonmin"
+240,135,1.5,stock,u.s. debt lures schroders as ecb depresses rates
+241,135,0.048,economy,u.s. debt lures schroders as ecb depresses rates
+242,135,0.048,economy,u.s. debt lures schroders as ecb depresses rates
+243,135,0.048,economy,u.s. debt lures schroders as ecb depresses rates
+244,135,1.5,corporate,u.s. debt lures schroders as ecb depresses rates
+245,135,1.5,market,u.s. debt lures schroders as ecb depresses rates
+246,138,1.5,stock,tullow oil suspends dividend amid oil price fall
+247,138,1.5,economy,tullow oil suspends dividend amid oil price fall
+248,138,-0.498,corporate,tullow oil suspends dividend amid oil price fall
+249,138,-0.498,corporate,tullow oil suspends dividend amid oil price fall
+250,138,-0.498,corporate,tullow oil suspends dividend amid oil price fall
+251,138,1.5,market,tullow oil suspends dividend amid oil price fall
+252,142,1.5,stock,"oil majors like royal dutch shell, chevron, bp fail to find reserves to counter ..."
+253,142,1.5,economy,"oil majors like royal dutch shell, chevron, bp fail to find reserves to counter ..."
+254,142,-0.402,corporate,"oil majors like royal dutch shell, chevron, bp fail to find reserves to counter ..."
+255,142,-0.402,corporate,"oil majors like royal dutch shell, chevron, bp fail to find reserves to counter ..."
+256,142,-0.402,corporate,"oil majors like royal dutch shell, chevron, bp fail to find reserves to counter ..."
+257,142,1.5,market,"oil majors like royal dutch shell, chevron, bp fail to find reserves to counter ..."
+258,153,1.5,stock,standard chartered lags on capital worries
+259,153,1.5,economy,standard chartered lags on capital worries
+260,153,-0.358,corporate,standard chartered lags on capital worries
+261,153,-0.358,corporate,standard chartered lags on capital worries
+262,153,-0.358,corporate,standard chartered lags on capital worries
+263,153,1.5,market,standard chartered lags on capital worries
+264,156,1.5,stock,standard life share price: insurer buys advice firm pearson jones
+265,156,1.5,economy,standard life share price: insurer buys advice firm pearson jones
+266,156,0.364,corporate,standard life share price: insurer buys advice firm pearson jones
+267,156,0.364,corporate,standard life share price: insurer buys advice firm pearson jones
+268,156,0.364,corporate,standard life share price: insurer buys advice firm pearson jones
+269,156,1.5,market,standard life share price: insurer buys advice firm pearson jones
+270,158,1.5,stock,tesco closes in on new chairman with dixons carphone's john allan in the frame
+271,158,1.5,economy,tesco closes in on new chairman with dixons carphone's john allan in the frame
+272,158,0.212,corporate,tesco closes in on new chairman with dixons carphone's john allan in the frame
+273,158,0.212,corporate,tesco closes in on new chairman with dixons carphone's john allan in the frame
+274,158,0.212,corporate,tesco closes in on new chairman with dixons carphone's john allan in the frame
+275,158,1.5,market,tesco closes in on new chairman with dixons carphone's john allan in the frame
+276,159,0.495,stock,millercoors delivers 2.9% underlying net income growth for 2014
+277,159,0.495,stock,millercoors delivers 2.9% underlying net income growth for 2014
+278,159,0.495,stock,millercoors delivers 2.9% underlying net income growth for 2014
+279,159,1.5,economy,millercoors delivers 2.9% underlying net income growth for 2014
+280,159,1.5,corporate,millercoors delivers 2.9% underlying net income growth for 2014
+281,159,1.5,market,millercoors delivers 2.9% underlying net income growth for 2014
+282,165,1.5,stock,rbs will reportedly appoint howard davies as its next chairman
+283,165,1.5,economy,rbs will reportedly appoint howard davies as its next chairman
+284,165,0.089,corporate,rbs will reportedly appoint howard davies as its next chairman
+285,165,0.089,corporate,rbs will reportedly appoint howard davies as its next chairman
+286,165,0.089,corporate,rbs will reportedly appoint howard davies as its next chairman
+287,165,1.5,market,rbs will reportedly appoint howard davies as its next chairman
+288,168,1.5,stock,hsbc hit by fresh details of tax evasion claims
+289,168,1.5,economy,hsbc hit by fresh details of tax evasion claims
+290,168,-0.594,corporate,hsbc hit by fresh details of tax evasion claims
+291,168,-0.594,corporate,hsbc hit by fresh details of tax evasion claims
+292,168,-0.594,corporate,hsbc hit by fresh details of tax evasion claims
+293,168,1.5,market,hsbc hit by fresh details of tax evasion claims
+294,171,1.5,stock,relief for lewis as tesco sees sales grow for first time in a year
+295,171,1.5,economy,relief for lewis as tesco sees sales grow for first time in a year
+296,171,0.42,corporate,relief for lewis as tesco sees sales grow for first time in a year
+297,171,0.42,corporate,relief for lewis as tesco sees sales grow for first time in a year
+298,171,0.42,corporate,relief for lewis as tesco sees sales grow for first time in a year
+299,171,1.5,market,relief for lewis as tesco sees sales grow for first time in a year
+300,176,1.5,stock,morrisons finance chief to fill gap as ceo leaves early
+301,176,1.5,economy,morrisons finance chief to fill gap as ceo leaves early
+302,176,-0.114,corporate,morrisons finance chief to fill gap as ceo leaves early
+303,176,-0.114,corporate,morrisons finance chief to fill gap as ceo leaves early
+304,176,-0.114,corporate,morrisons finance chief to fill gap as ceo leaves early
+305,176,1.5,market,morrisons finance chief to fill gap as ceo leaves early
+306,178,0.937,stock,"update: persimmon profit up strongly, outlook positive"
+307,178,0.937,stock,"update: persimmon profit up strongly, outlook positive"
+308,178,0.937,stock,"update: persimmon profit up strongly, outlook positive"
+309,178,1.5,economy,"update: persimmon profit up strongly, outlook positive"
+310,178,1.5,corporate,"update: persimmon profit up strongly, outlook positive"
+311,178,1.5,market,"update: persimmon profit up strongly, outlook positive"
+312,182,1.5,stock,trlpc - crh backs lafarge holcim asset buy with 6.5 bln euro bridge loan
+313,182,1.5,economy,trlpc - crh backs lafarge holcim asset buy with 6.5 bln euro bridge loan
+314,182,0.365,corporate,trlpc - crh backs lafarge holcim asset buy with 6.5 bln euro bridge loan
+315,182,0.365,corporate,trlpc - crh backs lafarge holcim asset buy with 6.5 bln euro bridge loan
+316,182,0.365,corporate,trlpc - crh backs lafarge holcim asset buy with 6.5 bln euro bridge loan
+317,182,1.5,market,trlpc - crh backs lafarge holcim asset buy with 6.5 bln euro bridge loan
+318,183,1.5,stock,tesco shareholders back itv head for chairman
+319,183,1.5,economy,tesco shareholders back itv head for chairman
+320,183,0.139,corporate,tesco shareholders back itv head for chairman
+321,183,0.139,corporate,tesco shareholders back itv head for chairman
+322,183,0.139,corporate,tesco shareholders back itv head for chairman
+323,183,1.5,market,tesco shareholders back itv head for chairman
+324,184,-0.11600000000000002,stock,"buffett's berkshire builds deere stake, dumps exxon"
+325,184,-0.11600000000000002,stock,"buffett's berkshire builds deere stake, dumps exxon"
+326,184,-0.11600000000000002,stock,"buffett's berkshire builds deere stake, dumps exxon"
+327,184,1.5,economy,"buffett's berkshire builds deere stake, dumps exxon"
+328,184,1.5,corporate,"buffett's berkshire builds deere stake, dumps exxon"
+329,184,1.5,market,"buffett's berkshire builds deere stake, dumps exxon"
+330,185,1.5,stock,aviva fined $27 million by u.k. regulator over fee failings
+331,185,1.5,economy,aviva fined $27 million by u.k. regulator over fee failings
+332,185,-0.675,corporate,aviva fined $27 million by u.k. regulator over fee failings
+333,185,-0.675,corporate,aviva fined $27 million by u.k. regulator over fee failings
+334,185,-0.675,corporate,aviva fined $27 million by u.k. regulator over fee failings
+335,185,1.5,market,aviva fined $27 million by u.k. regulator over fee failings
+336,186,1.5,stock,astrazeneca's patent on asthma drug invalidated by us court
+337,186,1.5,economy,astrazeneca's patent on asthma drug invalidated by us court
+338,186,-0.656,corporate,astrazeneca's patent on asthma drug invalidated by us court
+339,186,-0.656,corporate,astrazeneca's patent on asthma drug invalidated by us court
+340,186,-0.656,corporate,astrazeneca's patent on asthma drug invalidated by us court
+341,186,1.5,market,astrazeneca's patent on asthma drug invalidated by us court
+342,187,1.5,stock,rolls-royce to ensure compliance after petrobras bribery report
+343,187,1.5,economy,rolls-royce to ensure compliance after petrobras bribery report
+344,187,-0.075,corporate,rolls-royce to ensure compliance after petrobras bribery report
+345,187,-0.075,corporate,rolls-royce to ensure compliance after petrobras bribery report
+346,187,-0.075,corporate,rolls-royce to ensure compliance after petrobras bribery report
+347,187,1.5,market,rolls-royce to ensure compliance after petrobras bribery report
+348,188,0.513,stock,whitbread share price climbs on q4 sales growth
+349,188,0.513,stock,whitbread share price climbs on q4 sales growth
+350,188,0.513,stock,whitbread share price climbs on q4 sales growth
+351,188,1.5,economy,whitbread share price climbs on q4 sales growth
+352,188,1.5,corporate,whitbread share price climbs on q4 sales growth
+353,188,1.5,market,whitbread share price climbs on q4 sales growth
+354,190,1.5,stock,warren buffett defends berkshire hathaway's conglomerate structure
+355,190,1.5,economy,warren buffett defends berkshire hathaway's conglomerate structure
+356,190,0.144,corporate,warren buffett defends berkshire hathaway's conglomerate structure
+357,190,0.144,corporate,warren buffett defends berkshire hathaway's conglomerate structure
+358,190,0.144,corporate,warren buffett defends berkshire hathaway's conglomerate structure
+359,190,1.5,market,warren buffett defends berkshire hathaway's conglomerate structure
+360,199,1.5,stock,g4s sees profits rise but uk contract problems remain
+361,199,1.5,economy,g4s sees profits rise but uk contract problems remain
+362,199,0.252,corporate,g4s sees profits rise but uk contract problems remain
+363,199,0.252,corporate,g4s sees profits rise but uk contract problems remain
+364,199,0.252,corporate,g4s sees profits rise but uk contract problems remain
+365,199,1.5,market,g4s sees profits rise but uk contract problems remain
+366,206,1.5,stock,friends life lifts profits 38% and hikes divi ahead of proposed aviva takeover
+367,206,1.5,economy,friends life lifts profits 38% and hikes divi ahead of proposed aviva takeover
+368,206,0.387,corporate,friends life lifts profits 38% and hikes divi ahead of proposed aviva takeover
+369,206,0.387,corporate,friends life lifts profits 38% and hikes divi ahead of proposed aviva takeover
+370,206,0.387,corporate,friends life lifts profits 38% and hikes divi ahead of proposed aviva takeover
+371,206,1.5,market,friends life lifts profits 38% and hikes divi ahead of proposed aviva takeover
+372,212,0.655,stock,auto trader share price surges as company floats on lse
+373,212,0.655,stock,auto trader share price surges as company floats on lse
+374,212,0.655,stock,auto trader share price surges as company floats on lse
+375,212,1.5,economy,auto trader share price surges as company floats on lse
+376,212,1.5,corporate,auto trader share price surges as company floats on lse
+377,212,1.5,market,auto trader share price surges as company floats on lse
+378,214,1.5,stock,new credit suisse boss faces stiff challenge in asia
+379,214,1.5,economy,new credit suisse boss faces stiff challenge in asia
+380,214,-0.181,corporate,new credit suisse boss faces stiff challenge in asia
+381,214,-0.181,corporate,new credit suisse boss faces stiff challenge in asia
+382,214,-0.181,corporate,new credit suisse boss faces stiff challenge in asia
+383,214,1.5,market,new credit suisse boss faces stiff challenge in asia
+384,218,1.5,stock,"update: easyjet passenger numbers, aer lingus traffic up in february"
+385,218,1.5,economy,"update: easyjet passenger numbers, aer lingus traffic up in february"
+386,218,0.2995,corporate,"update: easyjet passenger numbers, aer lingus traffic up in february"
+387,218,0.2995,corporate,"update: easyjet passenger numbers, aer lingus traffic up in february"
+388,218,0.2995,corporate,"update: easyjet passenger numbers, aer lingus traffic up in february"
+389,218,1.5,market,"update: easyjet passenger numbers, aer lingus traffic up in february"
+390,219,1.5,stock,is it worth investing in tesco plc and prudential plc now?
+391,219,1.5,economy,is it worth investing in tesco plc and prudential plc now?
+392,219,0.161,corporate,is it worth investing in tesco plc and prudential plc now?
+393,219,0.161,corporate,is it worth investing in tesco plc and prudential plc now?
+394,219,0.161,corporate,is it worth investing in tesco plc and prudential plc now?
+395,219,1.5,market,is it worth investing in tesco plc and prudential plc now?
+396,225,1.5,stock,uk winners & losers: aviva and friends life lead ftse 100 gainers
+397,225,1.5,economy,uk winners & losers: aviva and friends life lead ftse 100 gainers
+398,225,1.5,corporate,uk winners & losers: aviva and friends life lead ftse 100 gainers
+399,225,0.516,market,uk winners & losers: aviva and friends life lead ftse 100 gainers
+400,225,0.516,market,uk winners & losers: aviva and friends life lead ftse 100 gainers
+401,225,0.516,market,uk winners & losers: aviva and friends life lead ftse 100 gainers
+402,234,1.5,stock,sainsbury's says to outperform rivals in tough market
+403,234,1.5,economy,sainsbury's says to outperform rivals in tough market
+404,234,1.5,corporate,sainsbury's says to outperform rivals in tough market
+405,234,0.536,market,sainsbury's says to outperform rivals in tough market
+406,234,0.536,market,sainsbury's says to outperform rivals in tough market
+407,234,0.536,market,sainsbury's says to outperform rivals in tough market
+408,239,1.5,stock,companieskingfisher bid for mr bricolage runs into trouble
+409,239,1.5,economy,companieskingfisher bid for mr bricolage runs into trouble
+410,239,-0.253,corporate,companieskingfisher bid for mr bricolage runs into trouble
+411,239,-0.253,corporate,companieskingfisher bid for mr bricolage runs into trouble
+412,239,-0.253,corporate,companieskingfisher bid for mr bricolage runs into trouble
+413,239,1.5,market,companieskingfisher bid for mr bricolage runs into trouble
+414,240,0.641,stock,update 3-auto trader shares leap in uk's biggest private equity-backed listing
+415,240,0.641,stock,update 3-auto trader shares leap in uk's biggest private equity-backed listing
+416,240,0.641,stock,update 3-auto trader shares leap in uk's biggest private equity-backed listing
+417,240,1.5,economy,update 3-auto trader shares leap in uk's biggest private equity-backed listing
+418,240,1.5,corporate,update 3-auto trader shares leap in uk's biggest private equity-backed listing
+419,240,1.5,market,update 3-auto trader shares leap in uk's biggest private equity-backed listing
+420,241,1.5,stock,"london open: taylor wimpey and ashtead drive markets higher, barclays falls"
+421,241,1.5,economy,"london open: taylor wimpey and ashtead drive markets higher, barclays falls"
+422,241,1.5,corporate,"london open: taylor wimpey and ashtead drive markets higher, barclays falls"
+423,241,0.12166666666666666,market,"london open: taylor wimpey and ashtead drive markets higher, barclays falls"
+424,241,0.12166666666666666,market,"london open: taylor wimpey and ashtead drive markets higher, barclays falls"
+425,241,0.12166666666666666,market,"london open: taylor wimpey and ashtead drive markets higher, barclays falls"
+426,242,1.5,stock,gsk and novartis complete deals to reshape both drugmakers
+427,242,1.5,economy,gsk and novartis complete deals to reshape both drugmakers
+428,242,0.264,corporate,gsk and novartis complete deals to reshape both drugmakers
+429,242,0.264,corporate,gsk and novartis complete deals to reshape both drugmakers
+430,242,0.264,corporate,gsk and novartis complete deals to reshape both drugmakers
+431,242,1.5,market,gsk and novartis complete deals to reshape both drugmakers
+432,244,1.5,stock,"aviva, friends life top forecasts ahead of 5.6 billion pound merger"
+433,244,1.5,economy,"aviva, friends life top forecasts ahead of 5.6 billion pound merger"
+434,244,0.39,corporate,"aviva, friends life top forecasts ahead of 5.6 billion pound merger"
+435,244,0.39,corporate,"aviva, friends life top forecasts ahead of 5.6 billion pound merger"
+436,244,0.39,corporate,"aviva, friends life top forecasts ahead of 5.6 billion pound merger"
+437,244,1.5,market,"aviva, friends life top forecasts ahead of 5.6 billion pound merger"
+438,246,1.5,stock,citigroup to sell onemain to springleaf for $4.25 billion
+439,246,1.5,economy,citigroup to sell onemain to springleaf for $4.25 billion
+440,246,0.254,corporate,citigroup to sell onemain to springleaf for $4.25 billion
+441,246,0.254,corporate,citigroup to sell onemain to springleaf for $4.25 billion
+442,246,0.254,corporate,citigroup to sell onemain to springleaf for $4.25 billion
+443,246,1.5,market,citigroup to sell onemain to springleaf for $4.25 billion
+444,247,0.544,stock,"u.k. stocks resume gains to rally to record; crh, tullow climb"
+445,247,0.544,stock,"u.k. stocks resume gains to rally to record; crh, tullow climb"
+446,247,0.544,stock,"u.k. stocks resume gains to rally to record; crh, tullow climb"
+447,247,1.5,economy,"u.k. stocks resume gains to rally to record; crh, tullow climb"
+448,247,1.5,corporate,"u.k. stocks resume gains to rally to record; crh, tullow climb"
+449,247,1.5,market,"u.k. stocks resume gains to rally to record; crh, tullow climb"
+450,248,-0.437,stock,british american tobacco drops and sues pwc over pollution scandal
+451,248,-0.437,stock,british american tobacco drops and sues pwc over pollution scandal
+452,248,-0.437,stock,british american tobacco drops and sues pwc over pollution scandal
+453,248,1.5,economy,british american tobacco drops and sues pwc over pollution scandal
+454,248,1.5,corporate,british american tobacco drops and sues pwc over pollution scandal
+455,248,1.5,market,british american tobacco drops and sues pwc over pollution scandal
+456,252,1.5,stock,uk's ftse has worst day so far in 2015 as bg and prudential fall
+457,252,1.5,economy,uk's ftse has worst day so far in 2015 as bg and prudential fall
+458,252,1.5,corporate,uk's ftse has worst day so far in 2015 as bg and prudential fall
+459,252,-0.651,market,uk's ftse has worst day so far in 2015 as bg and prudential fall
+460,252,-0.651,market,uk's ftse has worst day so far in 2015 as bg and prudential fall
+461,252,-0.651,market,uk's ftse has worst day so far in 2015 as bg and prudential fall
+462,253,1.5,stock,"kraft, cadbury's and britvic in total recall: how pulling a product affects profit"
+463,253,1.5,economy,"kraft, cadbury's and britvic in total recall: how pulling a product affects profit"
+464,253,-0.16849999999999998,corporate,"kraft, cadbury's and britvic in total recall: how pulling a product affects profit"
+465,253,-0.16849999999999998,corporate,"kraft, cadbury's and britvic in total recall: how pulling a product affects profit"
+466,253,-0.16849999999999998,corporate,"kraft, cadbury's and britvic in total recall: how pulling a product affects profit"
+467,253,1.5,market,"kraft, cadbury's and britvic in total recall: how pulling a product affects profit"
+468,257,1.5,stock,how kraft-heinz merger came together in speedy 10 weeks
+469,257,1.5,economy,how kraft-heinz merger came together in speedy 10 weeks
+470,257,0.214,corporate,how kraft-heinz merger came together in speedy 10 weeks
+471,257,0.214,corporate,how kraft-heinz merger came together in speedy 10 weeks
+472,257,0.214,corporate,how kraft-heinz merger came together in speedy 10 weeks
+473,257,1.5,market,how kraft-heinz merger came together in speedy 10 weeks
+474,258,1.5,stock,astrazeneca teams with daiichi sankyo to sell movantik in us
+475,258,1.5,economy,astrazeneca teams with daiichi sankyo to sell movantik in us
+476,258,0.3665,corporate,astrazeneca teams with daiichi sankyo to sell movantik in us
+477,258,0.3665,corporate,astrazeneca teams with daiichi sankyo to sell movantik in us
+478,258,0.3665,corporate,astrazeneca teams with daiichi sankyo to sell movantik in us
+479,258,1.5,market,astrazeneca teams with daiichi sankyo to sell movantik in us
+480,263,-0.216,stock,rbi surprises street; sensex pares gains after hitting mount 30k
+481,263,-0.216,stock,rbi surprises street; sensex pares gains after hitting mount 30k
+482,263,-0.216,stock,rbi surprises street; sensex pares gains after hitting mount 30k
+483,263,1.5,economy,rbi surprises street; sensex pares gains after hitting mount 30k
+484,263,1.5,corporate,rbi surprises street; sensex pares gains after hitting mount 30k
+485,263,1.5,market,rbi surprises street; sensex pares gains after hitting mount 30k
+486,264,1.5,stock,credit suisse poaches prudential's thiam for asian push
+487,264,1.5,economy,credit suisse poaches prudential's thiam for asian push
+488,264,0.047,corporate,credit suisse poaches prudential's thiam for asian push
+489,264,0.047,corporate,credit suisse poaches prudential's thiam for asian push
+490,264,0.047,corporate,credit suisse poaches prudential's thiam for asian push
+491,264,1.5,market,credit suisse poaches prudential's thiam for asian push
+492,266,1.5,stock,kingfisher takeover of mr bricolage could hit a brick wall
+493,266,1.5,economy,kingfisher takeover of mr bricolage could hit a brick wall
+494,266,-0.311,corporate,kingfisher takeover of mr bricolage could hit a brick wall
+495,266,-0.311,corporate,kingfisher takeover of mr bricolage could hit a brick wall
+496,266,-0.311,corporate,kingfisher takeover of mr bricolage could hit a brick wall
+497,266,1.5,market,kingfisher takeover of mr bricolage could hit a brick wall
+498,270,-0.508,stock,"u.k. stocks little changed near record as barclays, shell fall"
+499,270,-0.508,stock,"u.k. stocks little changed near record as barclays, shell fall"
+500,270,-0.508,stock,"u.k. stocks little changed near record as barclays, shell fall"
+501,270,1.5,economy,"u.k. stocks little changed near record as barclays, shell fall"
+502,270,1.5,corporate,"u.k. stocks little changed near record as barclays, shell fall"
+503,270,1.5,market,"u.k. stocks little changed near record as barclays, shell fall"
+504,274,0.053,stock,insurers: admiral blows hot and cold but aviva soars pre-friends life merger
+505,274,0.053,stock,insurers: admiral blows hot and cold but aviva soars pre-friends life merger
+506,274,0.053,stock,insurers: admiral blows hot and cold but aviva soars pre-friends life merger
+507,274,1.5,economy,insurers: admiral blows hot and cold but aviva soars pre-friends life merger
+508,274,1.5,corporate,insurers: admiral blows hot and cold but aviva soars pre-friends life merger
+509,274,1.5,market,insurers: admiral blows hot and cold but aviva soars pre-friends life merger
+510,275,1.5,stock,astrazeneca and daiichi sankyo to jointly commercialise movantik in the us
+511,275,1.5,economy,astrazeneca and daiichi sankyo to jointly commercialise movantik in the us
+512,275,0.4075,corporate,astrazeneca and daiichi sankyo to jointly commercialise movantik in the us
+513,275,0.4075,corporate,astrazeneca and daiichi sankyo to jointly commercialise movantik in the us
+514,275,0.4075,corporate,astrazeneca and daiichi sankyo to jointly commercialise movantik in the us
+515,275,1.5,market,astrazeneca and daiichi sankyo to jointly commercialise movantik in the us
+516,279,0.379,stock,legal & general arm buys 50 pct stake in mediacityuk in manchester
+517,279,0.379,stock,legal & general arm buys 50 pct stake in mediacityuk in manchester
+518,279,0.379,stock,legal & general arm buys 50 pct stake in mediacityuk in manchester
+519,279,1.5,economy,legal & general arm buys 50 pct stake in mediacityuk in manchester
+520,279,1.5,corporate,legal & general arm buys 50 pct stake in mediacityuk in manchester
+521,279,1.5,market,legal & general arm buys 50 pct stake in mediacityuk in manchester
+522,281,1.5,stock,randgold profit hit by poor gold price but dividend still increases
+523,281,1.5,economy,randgold profit hit by poor gold price but dividend still increases
+524,281,-0.052,corporate,randgold profit hit by poor gold price but dividend still increases
+525,281,-0.052,corporate,randgold profit hit by poor gold price but dividend still increases
+526,281,-0.052,corporate,randgold profit hit by poor gold price but dividend still increases
+527,281,1.5,market,randgold profit hit by poor gold price but dividend still increases
+528,290,1.5,stock,"companiestravis perkins lifts dividend, earnings rise 15%"
+529,290,1.5,economy,"companiestravis perkins lifts dividend, earnings rise 15%"
+530,290,0.494,corporate,"companiestravis perkins lifts dividend, earnings rise 15%"
+531,290,0.494,corporate,"companiestravis perkins lifts dividend, earnings rise 15%"
+532,290,0.494,corporate,"companiestravis perkins lifts dividend, earnings rise 15%"
+533,290,1.5,market,"companiestravis perkins lifts dividend, earnings rise 15%"
+534,293,1.5,stock,market report: aviva tops the market as traders approve of its choice of friends
+535,293,1.5,economy,market report: aviva tops the market as traders approve of its choice of friends
+536,293,1.5,corporate,market report: aviva tops the market as traders approve of its choice of friends
+537,293,0.443,market,market report: aviva tops the market as traders approve of its choice of friends
+538,293,0.443,market,market report: aviva tops the market as traders approve of its choice of friends
+539,293,0.443,market,market report: aviva tops the market as traders approve of its choice of friends
+540,296,1.5,stock,insurer old mutual picks standard bank's hemphill as new ceo
+541,296,1.5,economy,insurer old mutual picks standard bank's hemphill as new ceo
+542,296,0.025,corporate,insurer old mutual picks standard bank's hemphill as new ceo
+543,296,0.025,corporate,insurer old mutual picks standard bank's hemphill as new ceo
+544,296,0.025,corporate,insurer old mutual picks standard bank's hemphill as new ceo
+545,296,1.5,market,insurer old mutual picks standard bank's hemphill as new ceo
+546,302,1.5,stock,"fda panel backs safety updates for astrazeneca, takeda drugs"
+547,302,1.5,economy,"fda panel backs safety updates for astrazeneca, takeda drugs"
+548,302,-0.02750000000000001,corporate,"fda panel backs safety updates for astrazeneca, takeda drugs"
+549,302,-0.02750000000000001,corporate,"fda panel backs safety updates for astrazeneca, takeda drugs"
+550,302,-0.02750000000000001,corporate,"fda panel backs safety updates for astrazeneca, takeda drugs"
+551,302,1.5,market,"fda panel backs safety updates for astrazeneca, takeda drugs"
+552,304,1.5,stock,companiesdiageo stays neutral on india boardroom turmoil
+553,304,1.5,economy,companiesdiageo stays neutral on india boardroom turmoil
+554,304,0.0,corporate,companiesdiageo stays neutral on india boardroom turmoil
+555,304,0.0,corporate,companiesdiageo stays neutral on india boardroom turmoil
+556,304,0.0,corporate,companiesdiageo stays neutral on india boardroom turmoil
+557,304,1.5,market,companiesdiageo stays neutral on india boardroom turmoil
+558,315,1.5,stock,germanwings disaster will not affect image of budget air travel - easyjet
+559,315,1.5,economy,germanwings disaster will not affect image of budget air travel - easyjet
+560,315,0.025,corporate,germanwings disaster will not affect image of budget air travel - easyjet
+561,315,0.025,corporate,germanwings disaster will not affect image of budget air travel - easyjet
+562,315,0.025,corporate,germanwings disaster will not affect image of budget air travel - easyjet
+563,315,1.5,market,germanwings disaster will not affect image of budget air travel - easyjet
+564,318,1.5,stock,shell's $70 billion bg deal meets shareholder skepticism
+565,318,1.5,economy,shell's $70 billion bg deal meets shareholder skepticism
+566,318,-0.345,corporate,shell's $70 billion bg deal meets shareholder skepticism
+567,318,-0.345,corporate,shell's $70 billion bg deal meets shareholder skepticism
+568,318,-0.345,corporate,shell's $70 billion bg deal meets shareholder skepticism
+569,318,1.5,market,shell's $70 billion bg deal meets shareholder skepticism
+570,321,1.5,stock,shell offers 50 percent premium to buy bg for $70 billion
+571,321,1.5,economy,shell offers 50 percent premium to buy bg for $70 billion
+572,321,0.193,corporate,shell offers 50 percent premium to buy bg for $70 billion
+573,321,0.193,corporate,shell offers 50 percent premium to buy bg for $70 billion
+574,321,0.193,corporate,shell offers 50 percent premium to buy bg for $70 billion
+575,321,1.5,market,shell offers 50 percent premium to buy bg for $70 billion
+576,324,1.5,stock,wpp boosts sales despite cautious clients
+577,324,1.5,economy,wpp boosts sales despite cautious clients
+578,324,0.251,corporate,wpp boosts sales despite cautious clients
+579,324,0.251,corporate,wpp boosts sales despite cautious clients
+580,324,0.251,corporate,wpp boosts sales despite cautious clients
+581,324,1.5,market,wpp boosts sales despite cautious clients
+582,335,1.5,stock,shell to buy bg group in $69.7 billion takeover
+583,335,1.5,economy,shell to buy bg group in $69.7 billion takeover
+584,335,0.25,corporate,shell to buy bg group in $69.7 billion takeover
+585,335,0.25,corporate,shell to buy bg group in $69.7 billion takeover
+586,335,0.25,corporate,shell to buy bg group in $69.7 billion takeover
+587,335,1.5,market,shell to buy bg group in $69.7 billion takeover
+588,336,0.556,stock,london morning briefing: hsbc and standard chartered shares rise
+589,336,0.556,stock,london morning briefing: hsbc and standard chartered shares rise
+590,336,0.556,stock,london morning briefing: hsbc and standard chartered shares rise
+591,336,1.5,economy,london morning briefing: hsbc and standard chartered shares rise
+592,336,1.5,corporate,london morning briefing: hsbc and standard chartered shares rise
+593,336,1.5,market,london morning briefing: hsbc and standard chartered shares rise
+594,342,1.5,stock,update 1-bp shareholders back more disclosure on climate change risks
+595,342,1.5,economy,update 1-bp shareholders back more disclosure on climate change risks
+596,342,0.037,corporate,update 1-bp shareholders back more disclosure on climate change risks
+597,342,0.037,corporate,update 1-bp shareholders back more disclosure on climate change risks
+598,342,0.037,corporate,update 1-bp shareholders back more disclosure on climate change risks
+599,342,1.5,market,update 1-bp shareholders back more disclosure on climate change risks
+600,345,1.5,stock,shell challenges exxon dominance with 47 billion-pound bid for bg
+601,345,1.5,economy,shell challenges exxon dominance with 47 billion-pound bid for bg
+602,345,-0.059000000000000004,corporate,shell challenges exxon dominance with 47 billion-pound bid for bg
+603,345,-0.059000000000000004,corporate,shell challenges exxon dominance with 47 billion-pound bid for bg
+604,345,-0.059000000000000004,corporate,shell challenges exxon dominance with 47 billion-pound bid for bg
+605,345,1.5,market,shell challenges exxon dominance with 47 billion-pound bid for bg
+606,347,1.5,stock,royal dutch shell to buy bg group for nearly $70 billion
+607,347,1.5,economy,royal dutch shell to buy bg group for nearly $70 billion
+608,347,0.259,corporate,royal dutch shell to buy bg group for nearly $70 billion
+609,347,0.259,corporate,royal dutch shell to buy bg group for nearly $70 billion
+610,347,0.259,corporate,royal dutch shell to buy bg group for nearly $70 billion
+611,347,1.5,market,royal dutch shell to buy bg group for nearly $70 billion
+612,349,1.5,stock,city spirits sink after diageo comes up short with sales slide
+613,349,1.5,economy,city spirits sink after diageo comes up short with sales slide
+614,349,-0.521,corporate,city spirits sink after diageo comes up short with sales slide
+615,349,-0.521,corporate,city spirits sink after diageo comes up short with sales slide
+616,349,-0.521,corporate,city spirits sink after diageo comes up short with sales slide
+617,349,1.5,market,city spirits sink after diageo comes up short with sales slide
+618,358,1.5,stock,diageo receives reports from united spirits on financial irregularities involving ...
+619,358,1.5,economy,diageo receives reports from united spirits on financial irregularities involving ...
+620,358,-0.2635,corporate,diageo receives reports from united spirits on financial irregularities involving ...
+621,358,-0.2635,corporate,diageo receives reports from united spirits on financial irregularities involving ...
+622,358,-0.2635,corporate,diageo receives reports from united spirits on financial irregularities involving ...
+623,358,1.5,market,diageo receives reports from united spirits on financial irregularities involving ...
+624,361,1.5,stock,rolls-royce wins $9.2 billion order from emirates airline
+625,361,1.5,economy,rolls-royce wins $9.2 billion order from emirates airline
+626,361,0.777,corporate,rolls-royce wins $9.2 billion order from emirates airline
+627,361,0.777,corporate,rolls-royce wins $9.2 billion order from emirates airline
+628,361,0.777,corporate,rolls-royce wins $9.2 billion order from emirates airline
+629,361,1.5,market,rolls-royce wins $9.2 billion order from emirates airline
+630,372,1.5,stock,tesco sales rise shows tentative recovery continues
+631,372,1.5,economy,tesco sales rise shows tentative recovery continues
+632,372,0.256,corporate,tesco sales rise shows tentative recovery continues
+633,372,0.256,corporate,tesco sales rise shows tentative recovery continues
+634,372,0.256,corporate,tesco sales rise shows tentative recovery continues
+635,372,1.5,market,tesco sales rise shows tentative recovery continues
+636,374,1.5,stock,diageo sales disappoint as currency and comparatives leave bitter taste
+637,374,1.5,economy,diageo sales disappoint as currency and comparatives leave bitter taste
+638,374,-0.545,corporate,diageo sales disappoint as currency and comparatives leave bitter taste
+639,374,-0.545,corporate,diageo sales disappoint as currency and comparatives leave bitter taste
+640,374,-0.545,corporate,diageo sales disappoint as currency and comparatives leave bitter taste
+641,374,1.5,market,diageo sales disappoint as currency and comparatives leave bitter taste
+642,381,1.5,stock,astrazeneca profit down as sales of stalwarts fade
+643,381,1.5,economy,astrazeneca profit down as sales of stalwarts fade
+644,381,-0.405,corporate,astrazeneca profit down as sales of stalwarts fade
+645,381,-0.405,corporate,astrazeneca profit down as sales of stalwarts fade
+646,381,-0.405,corporate,astrazeneca profit down as sales of stalwarts fade
+647,381,1.5,market,astrazeneca profit down as sales of stalwarts fade
+648,382,1.5,stock,"whitbread profit up as sales continue to rise, looking for new ceo"
+649,382,1.5,economy,"whitbread profit up as sales continue to rise, looking for new ceo"
+650,382,0.385,corporate,"whitbread profit up as sales continue to rise, looking for new ceo"
+651,382,0.385,corporate,"whitbread profit up as sales continue to rise, looking for new ceo"
+652,382,0.385,corporate,"whitbread profit up as sales continue to rise, looking for new ceo"
+653,382,1.5,market,"whitbread profit up as sales continue to rise, looking for new ceo"
+654,391,1.5,stock,glencore blames rivals for creating metals glut
+655,391,1.5,economy,glencore blames rivals for creating metals glut
+656,391,-0.331,corporate,glencore blames rivals for creating metals glut
+657,391,-0.331,corporate,glencore blames rivals for creating metals glut
+658,391,-0.331,corporate,glencore blames rivals for creating metals glut
+659,391,1.5,market,glencore blames rivals for creating metals glut
+660,394,1.5,stock,doubts grow over glaxosmithkline's $6 bln capital return plan
+661,394,1.5,economy,doubts grow over glaxosmithkline's $6 bln capital return plan
+662,394,-0.221,corporate,doubts grow over glaxosmithkline's $6 bln capital return plan
+663,394,-0.221,corporate,doubts grow over glaxosmithkline's $6 bln capital return plan
+664,394,-0.221,corporate,doubts grow over glaxosmithkline's $6 bln capital return plan
+665,394,1.5,market,doubts grow over glaxosmithkline's $6 bln capital return plan
+666,395,1.5,stock,easyjet leads britain's ftse lower as global bond rout resumes
+667,395,1.5,economy,easyjet leads britain's ftse lower as global bond rout resumes
+668,395,1.5,corporate,easyjet leads britain's ftse lower as global bond rout resumes
+669,395,-0.495,market,easyjet leads britain's ftse lower as global bond rout resumes
+670,395,-0.495,market,easyjet leads britain's ftse lower as global bond rout resumes
+671,395,-0.495,market,easyjet leads britain's ftse lower as global bond rout resumes
+672,398,1.5,stock,imperial tobacco adds quarterly dividends after profit rose
+673,398,1.5,economy,imperial tobacco adds quarterly dividends after profit rose
+674,398,0.336,corporate,imperial tobacco adds quarterly dividends after profit rose
+675,398,0.336,corporate,imperial tobacco adds quarterly dividends after profit rose
+676,398,0.336,corporate,imperial tobacco adds quarterly dividends after profit rose
+677,398,1.5,market,imperial tobacco adds quarterly dividends after profit rose
+678,401,1.5,stock,bg group still happy with shell's $70 billion offer
+679,401,1.5,economy,bg group still happy with shell's $70 billion offer
+680,401,0.235,corporate,bg group still happy with shell's $70 billion offer
+681,401,0.235,corporate,bg group still happy with shell's $70 billion offer
+682,401,0.235,corporate,bg group still happy with shell's $70 billion offer
+683,401,1.5,market,bg group still happy with shell's $70 billion offer
+684,402,1.5,stock,sabmiller buys meantime to quench thirst for craft beer
+685,402,1.5,economy,sabmiller buys meantime to quench thirst for craft beer
+686,402,0.296,corporate,sabmiller buys meantime to quench thirst for craft beer
+687,402,0.296,corporate,sabmiller buys meantime to quench thirst for craft beer
+688,402,0.296,corporate,sabmiller buys meantime to quench thirst for craft beer
+689,402,1.5,market,sabmiller buys meantime to quench thirst for craft beer
+690,405,1.5,stock,aviva shuts friends life head office in rapid integration move
+691,405,1.5,economy,aviva shuts friends life head office in rapid integration move
+692,405,-0.09,corporate,aviva shuts friends life head office in rapid integration move
+693,405,-0.09,corporate,aviva shuts friends life head office in rapid integration move
+694,405,-0.09,corporate,aviva shuts friends life head office in rapid integration move
+695,405,1.5,market,aviva shuts friends life head office in rapid integration move
+696,409,0.459,stock,retailers kingfisher and sports direct rise in britain's share index
+697,409,0.459,stock,retailers kingfisher and sports direct rise in britain's share index
+698,409,0.459,stock,retailers kingfisher and sports direct rise in britain's share index
+699,409,1.5,economy,retailers kingfisher and sports direct rise in britain's share index
+700,409,1.5,corporate,retailers kingfisher and sports direct rise in britain's share index
+701,409,1.5,market,retailers kingfisher and sports direct rise in britain's share index
+702,412,0.229,stock,"glaxosmithkline targets growth across units, scraps viiv ipo"
+703,412,0.229,stock,"glaxosmithkline targets growth across units, scraps viiv ipo"
+704,412,0.229,stock,"glaxosmithkline targets growth across units, scraps viiv ipo"
+705,412,1.5,economy,"glaxosmithkline targets growth across units, scraps viiv ipo"
+706,412,1.5,corporate,"glaxosmithkline targets growth across units, scraps viiv ipo"
+707,412,1.5,market,"glaxosmithkline targets growth across units, scraps viiv ipo"
+708,413,0.354,stock,tesco share price closes higher as two more directors leave grocer
+709,413,0.354,stock,tesco share price closes higher as two more directors leave grocer
+710,413,0.354,stock,tesco share price closes higher as two more directors leave grocer
+711,413,1.5,economy,tesco share price closes higher as two more directors leave grocer
+712,413,1.5,corporate,tesco share price closes higher as two more directors leave grocer
+713,413,1.5,market,tesco share price closes higher as two more directors leave grocer
+714,415,1.5,stock,tesco leads ftse higher on clubcard bid reports
+715,415,1.5,economy,tesco leads ftse higher on clubcard bid reports
+716,415,0.453,corporate,tesco leads ftse higher on clubcard bid reports
+717,415,0.453,corporate,tesco leads ftse higher on clubcard bid reports
+718,415,0.453,corporate,tesco leads ftse higher on clubcard bid reports
+719,415,1.5,market,tesco leads ftse higher on clubcard bid reports
+720,417,0.516,stock,eli lilly & co. (lly) has broken out to a new high on astrazeneca collaboration
+721,417,0.516,stock,eli lilly & co. (lly) has broken out to a new high on astrazeneca collaboration
+722,417,0.516,stock,eli lilly & co. (lly) has broken out to a new high on astrazeneca collaboration
+723,417,1.5,economy,eli lilly & co. (lly) has broken out to a new high on astrazeneca collaboration
+724,417,1.5,corporate,eli lilly & co. (lly) has broken out to a new high on astrazeneca collaboration
+725,417,1.5,market,eli lilly & co. (lly) has broken out to a new high on astrazeneca collaboration
+726,422,1.5,stock,"rpt-old mutual q1 gross sales beat forecasts, up 18 pct"
+727,422,1.5,economy,"rpt-old mutual q1 gross sales beat forecasts, up 18 pct"
+728,422,0.724,corporate,"rpt-old mutual q1 gross sales beat forecasts, up 18 pct"
+729,422,0.724,corporate,"rpt-old mutual q1 gross sales beat forecasts, up 18 pct"
+730,422,0.724,corporate,"rpt-old mutual q1 gross sales beat forecasts, up 18 pct"
+731,422,1.5,market,"rpt-old mutual q1 gross sales beat forecasts, up 18 pct"
+732,427,1.5,stock,"update 3-bp settles oil spill-related claims with halliburton, transocean"
+733,427,1.5,economy,"update 3-bp settles oil spill-related claims with halliburton, transocean"
+734,427,-0.0815,corporate,"update 3-bp settles oil spill-related claims with halliburton, transocean"
+735,427,-0.0815,corporate,"update 3-bp settles oil spill-related claims with halliburton, transocean"
+736,427,-0.0815,corporate,"update 3-bp settles oil spill-related claims with halliburton, transocean"
+737,427,1.5,market,"update 3-bp settles oil spill-related claims with halliburton, transocean"
+738,429,-0.408,stock,glaxosmithkline share price slips as fda okays asthma therapy only for adults
+739,429,-0.408,stock,glaxosmithkline share price slips as fda okays asthma therapy only for adults
+740,429,-0.408,stock,glaxosmithkline share price slips as fda okays asthma therapy only for adults
+741,429,1.5,economy,glaxosmithkline share price slips as fda okays asthma therapy only for adults
+742,429,1.5,corporate,glaxosmithkline share price slips as fda okays asthma therapy only for adults
+743,429,1.5,market,glaxosmithkline share price slips as fda okays asthma therapy only for adults
+744,430,-0.301,stock,glencore chief blames rivals' overproduction for share price fall
+745,430,-0.301,stock,glencore chief blames rivals' overproduction for share price fall
+746,430,-0.301,stock,glencore chief blames rivals' overproduction for share price fall
+747,430,1.5,economy,glencore chief blames rivals' overproduction for share price fall
+748,430,1.5,corporate,glencore chief blames rivals' overproduction for share price fall
+749,430,1.5,market,glencore chief blames rivals' overproduction for share price fall
+750,435,1.5,stock,"philip morris, bat sue over law taking branding off packs"
+751,435,1.5,economy,"philip morris, bat sue over law taking branding off packs"
+752,435,-0.152,corporate,"philip morris, bat sue over law taking branding off packs"
+753,435,-0.152,corporate,"philip morris, bat sue over law taking branding off packs"
+754,435,-0.152,corporate,"philip morris, bat sue over law taking branding off packs"
+755,435,1.5,market,"philip morris, bat sue over law taking branding off packs"
+756,440,-0.514,stock,hargreaves lansdown share price falls as costs mount - although pensions ...
+757,440,-0.514,stock,hargreaves lansdown share price falls as costs mount - although pensions ...
+758,440,-0.514,stock,hargreaves lansdown share price falls as costs mount - although pensions ...
+759,440,1.5,economy,hargreaves lansdown share price falls as costs mount - although pensions ...
+760,440,1.5,corporate,hargreaves lansdown share price falls as costs mount - although pensions ...
+761,440,1.5,market,hargreaves lansdown share price falls as costs mount - although pensions ...
+762,444,1.5,stock,"press: serco set to appoint roy gardner, ex-centrica, as chairman - ft"
+763,444,1.5,economy,"press: serco set to appoint roy gardner, ex-centrica, as chairman - ft"
+764,444,0.1585,corporate,"press: serco set to appoint roy gardner, ex-centrica, as chairman - ft"
+765,444,0.1585,corporate,"press: serco set to appoint roy gardner, ex-centrica, as chairman - ft"
+766,444,0.1585,corporate,"press: serco set to appoint roy gardner, ex-centrica, as chairman - ft"
+767,444,1.5,market,"press: serco set to appoint roy gardner, ex-centrica, as chairman - ft"
+768,449,0.461,stock,update 1-cypress semiconductor offers to buy integrated silicon solution
+769,449,0.461,stock,update 1-cypress semiconductor offers to buy integrated silicon solution
+770,449,0.461,stock,update 1-cypress semiconductor offers to buy integrated silicon solution
+771,449,1.5,economy,update 1-cypress semiconductor offers to buy integrated silicon solution
+772,449,1.5,corporate,update 1-cypress semiconductor offers to buy integrated silicon solution
+773,449,1.5,market,update 1-cypress semiconductor offers to buy integrated silicon solution
+774,454,1.5,stock,"update 1-nomura, rbs must pay $806 mln in mortgage bond case-us judge"
+775,454,1.5,economy,"update 1-nomura, rbs must pay $806 mln in mortgage bond case-us judge"
+776,454,-0.69,corporate,"update 1-nomura, rbs must pay $806 mln in mortgage bond case-us judge"
+777,454,-0.69,corporate,"update 1-nomura, rbs must pay $806 mln in mortgage bond case-us judge"
+778,454,-0.69,corporate,"update 1-nomura, rbs must pay $806 mln in mortgage bond case-us judge"
+779,454,1.5,market,"update 1-nomura, rbs must pay $806 mln in mortgage bond case-us judge"
+780,459,1.5,stock,millercoors board names gavin hattersley interim ceo
+781,459,1.5,economy,millercoors board names gavin hattersley interim ceo
+782,459,0.0,corporate,millercoors board names gavin hattersley interim ceo
+783,459,0.0,corporate,millercoors board names gavin hattersley interim ceo
+784,459,0.0,corporate,millercoors board names gavin hattersley interim ceo
+785,459,1.5,market,millercoors board names gavin hattersley interim ceo
