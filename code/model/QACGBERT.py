@@ -621,7 +621,7 @@ class QACGBertForSequenceScore(nn.Module):
         pooled_output = self.dropout(pooled_output)
 
         tmp_score = self.scorer(pooled_output)
-        score = torch.where(tmp_score > 1, 1.5, tmp_score)
+        score = torch.where(tmp_score > 1, torch.full([len(tmp_score), 1], 1.5), tmp_score)
         print('score', score)
         if labels is not None:
             loss_fct = nn.L1Loss()
