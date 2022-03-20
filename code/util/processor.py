@@ -147,7 +147,7 @@ class FiqaProcessor(DataProcessor):
 
     def get_train_examples(self, data_dir):
         """See base class."""
-        train_data = pd.read_csv(os.path.join(data_dir, "train_headline_demo.csv")).values
+        train_data = pd.read_csv(os.path.join(data_dir, "acd_headline_train.csv")).values
         return self._create_examples(train_data, "train")
 
     def get_dev_examples(self, data_dir):
@@ -157,12 +157,12 @@ class FiqaProcessor(DataProcessor):
 
     def get_test_examples(self, data_dir):
         """See base class."""
-        test_data = pd.read_csv(os.path.join(data_dir, "test_headline_demo.csv")).values
+        test_data = pd.read_csv(os.path.join(data_dir, "acd_headline_test.csv")).values
         return self._create_examples(test_data, "test")
 
     def get_labels(self):
         """See base class."""
-        return []
+        return ['Yes', 'No']
 
     def _create_examples(self, lines, set_type, debug=False):
         """Creates examples for the training and dev sets."""

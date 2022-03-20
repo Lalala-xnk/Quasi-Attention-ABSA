@@ -255,6 +255,50 @@ def fiqa_eval(y_true, y_pred):
 
     return aspect_acc
 
+
+def fiqa_PRF(y_true, y_pred):
+    """
+    Calculate "Micro P R F" of aspect detection task of SemEval-2014.
+    """
+    s_all=0
+    g_all=0
+    s_g_all=0
+    print(y_true)
+    print(y_pred)
+    for i in range(len(y_pred)//5):
+        s=set()
+        g=set()
+        for j in range(5):
+            if y_pred[i*5+j]!=4:
+                s.add(j)
+            if y_true[i*5+j]!=4:
+                g.add(j)
+        if len(g)==0:continue
+        s_g=s.intersection(g)
+        s_all+=len(s)
+        g_all+=len(g)
+        s_g_all+=len(s_g)
+
+    # avoid zero division
+    if s_all == 0:
+        p = 0.0
+    else:
+        p=s_g_all/s_all
+
+    # avoid zero division
+    if g_all == 0:
+        r = 0.0
+    else:
+        r=s_g_all/g_all
+
+    # avoid zero division
+    if (p+r) == 0:
+        f = 0.0
+    else:
+        f=2*p*r/(p+r)
+
+    return p,r,f
+
 # def main():
 #     parser = argparse.ArgumentParser()
 #     parser.add_argument("--task_name",

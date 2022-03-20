@@ -45,7 +45,8 @@ processors = {
     "sentihood_NLI_M":Sentihood_NLI_M_Processor,
     "semeval_NLI_M":Semeval_NLI_M_Processor,
     "fiqa_headline": FiqaProcessor,
-    "fiqa_post": FiqaProcessor
+    "fiqa_post": FiqaProcessor,
+    "fiqa_acd": FiqaProcessor
 }
 
 context_id_map_sentihood = {'location - 1 - general':0,
@@ -172,7 +173,7 @@ def convert_examples_to_features(examples, label_list, max_seq_length,
             # let us encode context into single int
             if args.task_name == "sentihood_NLI_M":
                 context_ids = [context_id_map_sentihood[example.text_b]]
-            elif args.task_name in ["fiqa_headline", "fiqa_post"]:
+            elif args.task_name in ["fiqa_headline", "fiqa_post", "fiqa_acd"]:
                 context_ids = [context_id_map_fiqa[example.text_b]]
             else:
                 context_ids = [context_id_map_semeval[example.text_b]]
@@ -670,16 +671,16 @@ def evaluate(test_dataloader, model, device, n_gpu, nb_tr_steps, tr_loss, epoch,
                   'aspect_Macro_AUC': aspect_Macro_AUC,
                   'sentiment_Acc': sentiment_Acc,
                   'sentiment_Macro_AUC': sentiment_Macro_AUC}
-    elif args.task_name in ["fiqa_headline", "fiqa_post"]:
-        aspect_acc, aspect_f1, sentiment_acc = fiqa_eval(y_true, y_pred, score)
+    elif args.task_name in ["fiqa_headline", "fiqa_post", "fiqa_acd"]:
+        p, r, f = fiqa_PRF(y_true, y_pred)
         result = {'epoch': epoch,
                   'global_step': global_step,
                   'loss': loss_tr,
                   'test_loss': test_loss,
                   'test_accuracy': test_accuracy,
-                  'aspect_acc': aspect_acc,
-                  'aspect_f1': aspect_f1,
-                  'sentiment_acc': sentiment_acc
+                  'P': p,
+                  'R': r,
+                  'F1': f
                   }
     else:
         aspect_P, aspect_R, aspect_F = semeval_PRF(y_true, y_pred)
@@ -711,10 +712,10 @@ def evaluate(test_dataloader, model, device, n_gpu, nb_tr_steps, tr_loss, epoch,
             if aspect_strict_Acc > global_best_acc:
                 torch.save(model.state_dict(), args.output_dir + "best_checkpoint.bin")
                 global_best_acc = aspect_strict_Acc
-        elif args.task_name in ["fiqa_headline", "fiqa_post"]:
-            if sentiment_acc > global_best_acc:
+        elif args.task_name in ["fiqa_headline", "fiqa_post", "fiqa_acd"]:
+            if f > global_best_acc:
                 torch.save(model.state_dict(), args.output_dir + "best_checkpoint.bin")
-                global_best_acc = sentiment_acc
+                global_best_acc = f
         else:
             if aspect_F > global_best_acc:
                 torch.save(model.state_dict(), args.output_dir + "best_checkpoint.bin")
