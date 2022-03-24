@@ -263,7 +263,8 @@ def fiqa_PRF(y_true, y_pred):
     s_all=0
     g_all=0
     s_g_all=0
-    print(y_true)
+    print(len(y_true))
+    print(y_true[:16])
     print(y_pred)
     for i in range(len(y_pred)//16):
         s=set()
