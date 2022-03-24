@@ -266,13 +266,13 @@ def fiqa_PRF(y_true, y_pred):
     print(len(y_true))
     print(y_true[:16])
     print(y_pred)
-    for i in range(len(y_pred)//16):
+    for i in range(len(y_pred)//2):
         s=set()
         g=set()
-        for j in range(16):
-            if y_pred[i*16+j]!=4:
+        for j in range(2):
+            if y_pred[i*2+j]!=1:
                 s.add(j)
-            if y_true[i*16+j]!=4:
+            if y_true[i*2+j]!=1:
                 g.add(j)
         if len(g)==0:continue
         s_g=s.intersection(g)
