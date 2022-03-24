@@ -258,20 +258,20 @@ def fiqa_eval(y_true, y_pred):
 
 def fiqa_PRF(y_true, y_pred):
     """
-    Calculate "Micro P R F" of aspect detection task of SemEval-2014.
+    Calculate "Micro P R F" of aspect detection task of FiQA.
     """
     s_all=0
     g_all=0
     s_g_all=0
     print(y_true)
     print(y_pred)
-    for i in range(len(y_pred)//5):
+    for i in range(len(y_pred)//16):
         s=set()
         g=set()
-        for j in range(5):
-            if y_pred[i*5+j]!=4:
+        for j in range(16):
+            if y_pred[i*16+j]!=4:
                 s.add(j)
-            if y_true[i*5+j]!=4:
+            if y_true[i*16+j]!=4:
                 g.add(j)
         if len(g)==0:continue
         s_g=s.intersection(g)
