@@ -77,6 +77,8 @@ context_id_map_fiqa_chinese = {"法务": 0, "并购": 1, "监管": 2, "风险": 
                        "交易": 6, "中央银行": 7, "市场": 8, "流动性": 9, "金融": 10,
                        "基本面": 11, "价格行为": 12, "内幕活动": 13, "首次公开募股": 14, "其他": 15}
 
+context_id_map_fiqa_chinese_1 = {"公司": 0, "经济": 1, "市场": 2, "股票": 3, "其他": 4}
+
 
 def _truncate_seq_pair(tokens_a, tokens_b, max_length):
     """Truncates a sequence pair in place to the maximum length."""
@@ -183,7 +185,7 @@ def convert_examples_to_features(examples, label_list, max_seq_length,
             if args.task_name == "sentihood_NLI_M":
                 context_ids = [context_id_map_sentihood[example.text_b]]
             elif args.task_name in ["fiqa_headline", "fiqa_post", "fiqa_acd"]:
-                context_ids = [context_id_map_fiqa_chinese[example.text_b]]
+                context_ids = [context_id_map_fiqa_chinese_1[example.text_b]]
             else:
                 context_ids = [context_id_map_semeval[example.text_b]]
 
