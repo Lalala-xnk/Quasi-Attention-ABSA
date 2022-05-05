@@ -253,6 +253,7 @@ def pred(args):
 
     model.eval()
     pbar = tqdm(test_dataloader, desc="Iteration")
+    print(pbar)
     y_pred = []
     with torch.no_grad():
         for _, batch in enumerate(pbar):
