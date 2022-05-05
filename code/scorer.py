@@ -233,7 +233,7 @@ def data_and_model_loader(device, n_gpu, args):
 
     test_data = TensorDataset(all_input_ids, all_input_mask, all_segment_ids,
                                 all_label_ids, all_seq_len, all_context_ids)
-    test_dataloader = DataLoader(test_data, batch_size=args.eval_batch_size, shuffle=False)
+    test_dataloader = DataLoader(test_data, shuffle=False)
 
     if args.local_rank != -1:
         model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[args.local_rank],
@@ -282,6 +282,10 @@ if __name__ == '__main__':
     parser.add_argument("--bert_config_file")
     parser.add_argument("--init_checkpoint")
     parser.add_argument("--seed")
+    parser.add_argument('--local_rank', type=int, default=-1)
+    parser.add_argument("--no_cuda", default=False, action='store_true')
+    parser.add_argument("--max_context_length", default=1, type=int)
+    parser.add_argument("--context_standalone", default=False, action='store_true')
     args = parser.parse_args()
 
     score = pred(args)
