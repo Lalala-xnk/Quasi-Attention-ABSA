@@ -277,7 +277,7 @@ if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--path")
-    parser.add_argument("--max_seq_length")
+    parser.add_argument("--max_seq_length", default=128, type=int)
     parser.add_argument("--vocab_file")
     parser.add_argument("--bert_config_file")
     parser.add_argument("--init_checkpoint")
