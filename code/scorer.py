@@ -274,7 +274,15 @@ def pred(args):
 
 
 if __name__ == '__main__':
-    from util.args_parser import parser
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--path")
+    parser.add_argument("--max_seq_length")
+    parser.add_argument("--vocab_file")
+    parser.add_argument("--bert_config_file")
+    parser.add_argument("--init_checkpoint")
+    parser.add_argument("--seed")
     args = parser.parse_args()
+
     score = pred(args)
     print(score)
