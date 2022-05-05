@@ -50,7 +50,7 @@ def get_test_examples(path):
             guid = "%s-%s" % (set_type, i)
             text_a = convert_to_unicode(str(line[4]))
             text_b = convert_to_unicode(str(line[3]))
-            label = convert_to_unicode(str(line[2]))
+            label = float(line[2])
             examples.append(
                 InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
         return examples
