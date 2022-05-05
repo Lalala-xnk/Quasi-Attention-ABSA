@@ -251,7 +251,7 @@ def pred(args):
 
     model.eval()
     pbar = tqdm(test_dataloader, desc="Iteration")
-    score = []
+    y_pred = []
     with torch.no_grad():
         for _, batch in enumerate(pbar):
             if torch.cuda.is_available():
@@ -270,9 +270,12 @@ def pred(args):
             seq_lens = seq_lens.to(device)
             context_ids = context_ids.to(device)
 
-            print(score)
+            _, pred_score, _, _, _, _ = \
+                model(input_ids, segment_ids, input_mask, seq_lens, device=device, labels=score,
+                      context_ids=context_ids)
+            y_pred.append(pred_score)
 
-    # return score
+    return y_pred
 
 
 if __name__ == '__main__':
@@ -290,4 +293,5 @@ if __name__ == '__main__':
     parser.add_argument('--seed', type=int, default=123)
     args = parser.parse_args()
 
-    pred(args)
+    pred_score = pred(args)
+    print(pred_score)
