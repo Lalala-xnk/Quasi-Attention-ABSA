@@ -270,7 +270,9 @@ def pred(args):
             seq_lens = seq_lens.to(device)
             context_ids = context_ids.to(device)
 
-    return score
+            print(score)
+
+    # return score
 
 
 if __name__ == '__main__':
@@ -288,5 +290,4 @@ if __name__ == '__main__':
     parser.add_argument('--seed', type=int, default=123)
     args = parser.parse_args()
 
-    score = pred(args)
-    print(score)
+    pred(args)
