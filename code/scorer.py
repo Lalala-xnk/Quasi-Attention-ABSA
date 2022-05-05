@@ -281,11 +281,11 @@ if __name__ == '__main__':
     parser.add_argument("--vocab_file")
     parser.add_argument("--bert_config_file")
     parser.add_argument("--init_checkpoint")
-    parser.add_argument("--seed")
     parser.add_argument('--local_rank', type=int, default=-1)
     parser.add_argument("--no_cuda", default=False, action='store_true')
     parser.add_argument("--max_context_length", default=1, type=int)
     parser.add_argument("--context_standalone", default=False, action='store_true')
+    parser.add_argument('--seed', type=int, default=123)
     args = parser.parse_args()
 
     score = pred(args)
