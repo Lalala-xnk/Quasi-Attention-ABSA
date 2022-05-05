@@ -45,7 +45,7 @@ def convert_to_unicode(text):
 
 
 def get_test_examples(path):
-    test_data = pd.read_csv(path).values
+    test_data = pd.read_csv(path, header=None).values
     def _create_examples(lines, set_type):
         examples = []
         for (i, line) in enumerate(lines):
@@ -253,7 +253,6 @@ def pred(args):
 
     model.eval()
     pbar = tqdm(test_dataloader, desc="Iteration")
-    print(pbar)
     y_pred = []
     with torch.no_grad():
         for _, batch in enumerate(pbar):
