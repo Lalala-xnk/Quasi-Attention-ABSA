@@ -4,7 +4,9 @@ from model.QACGBERT import *
 from util.tokenization import *
 from torch.utils.data import DataLoader, TensorDataset
 import random
+import warnings
 
+warnings.filterwarnings('ignore')
 
 context_id_map_fiqa = {'stock': 0,
                        'corporate': 1,
