@@ -13,7 +13,6 @@ context_id_map_fiqa = {'stock': 0,
 
 
 class InputExample(object):
-
     def __init__(self, guid, text_a, text_b=None, label=None):
         self.guid = guid
         self.text_a = text_a
@@ -228,12 +227,12 @@ def data_and_model_loader(device, n_gpu, args):
     all_input_ids = torch.tensor([f.input_ids for f in test_features], dtype=torch.long)
     all_input_mask = torch.tensor([f.input_mask for f in test_features], dtype=torch.long)
     all_segment_ids = torch.tensor([f.segment_ids for f in test_features], dtype=torch.long)
-    all_label_ids = torch.tensor([f.label_id for f in test_features], dtype=torch.long)
+    all_score = torch.tensor([f.score for f in test_features], dtype=torch.float)
     all_seq_len = torch.tensor([[f.seq_len] for f in test_features], dtype=torch.long)
     all_context_ids = torch.tensor([f.context_ids for f in test_features], dtype=torch.long)
 
     test_data = TensorDataset(all_input_ids, all_input_mask, all_segment_ids,
-                                all_label_ids, all_seq_len, all_context_ids)
+                              all_score, all_seq_len, all_context_ids)
     test_dataloader = DataLoader(test_data, shuffle=False)
 
     if args.local_rank != -1:
