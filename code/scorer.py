@@ -251,20 +251,17 @@ def pred(args):
     device, n_gpu = system_setups(args)
     model, test_dataloader = data_and_model_loader(device, n_gpu, args)
 
-    print(test_dataloader)
-
     model.eval()
-    pbar = tqdm(test_dataloader, desc="Iteration")
     y_pred = []
-    for _, batch in enumerate(pbar):
+    for batch in list(test_dataloader):
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
         input_ids, input_mask, segment_ids, score, seq_lens, \
             context_ids = batch
         max_seq_lens = max(seq_lens)[0]
-        input_ids = input_ids[:,:max_seq_lens]
-        input_mask = input_mask[:,:max_seq_lens]
-        segment_ids = segment_ids[:,:max_seq_lens]
+        input_ids = input_ids[:, :max_seq_lens]
+        input_mask = input_mask[:, :max_seq_lens]
+        segment_ids = segment_ids[:, :max_seq_lens]
 
         input_ids = input_ids.to(device)
         input_mask = input_mask.to(device)
@@ -276,7 +273,7 @@ def pred(args):
         _, pred_score, _, _, _, _ = \
             model(input_ids, segment_ids, input_mask, seq_lens, device=device, labels=score,
                   context_ids=context_ids)
-        y_pred.append(pred_score)
+        y_pred.append(pred_score.detach().numpy()[0][0])
 
     return y_pred
 
