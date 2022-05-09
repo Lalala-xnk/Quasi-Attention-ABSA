@@ -254,28 +254,27 @@ def pred(args):
     model.eval()
     pbar = tqdm(test_dataloader, desc="Iteration")
     y_pred = []
-    with torch.no_grad():
-        for _, batch in enumerate(pbar):
-            if torch.cuda.is_available():
-                torch.cuda.empty_cache()
-            input_ids, input_mask, segment_ids, score, seq_lens, \
-                context_ids = batch
-            max_seq_lens = max(seq_lens)[0]
-            input_ids = input_ids[:,:max_seq_lens]
-            input_mask = input_mask[:,:max_seq_lens]
-            segment_ids = segment_ids[:,:max_seq_lens]
+    for _, batch in enumerate(pbar):
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        input_ids, input_mask, segment_ids, score, seq_lens, \
+            context_ids = batch
+        max_seq_lens = max(seq_lens)[0]
+        input_ids = input_ids[:,:max_seq_lens]
+        input_mask = input_mask[:,:max_seq_lens]
+        segment_ids = segment_ids[:,:max_seq_lens]
 
-            input_ids = input_ids.to(device)
-            input_mask = input_mask.to(device)
-            segment_ids = segment_ids.to(device)
-            score = score.to(device)
-            seq_lens = seq_lens.to(device)
-            context_ids = context_ids.to(device)
+        input_ids = input_ids.to(device)
+        input_mask = input_mask.to(device)
+        segment_ids = segment_ids.to(device)
+        score = score.to(device)
+        seq_lens = seq_lens.to(device)
+        context_ids = context_ids.to(device)
 
-            _, pred_score, _, _, _, _ = \
-                model(input_ids, segment_ids, input_mask, seq_lens, device=device, labels=score,
-                      context_ids=context_ids)
-            y_pred.append(pred_score)
+        _, pred_score, _, _, _, _ = \
+            model(input_ids, segment_ids, input_mask, seq_lens, device=device, labels=score,
+                  context_ids=context_ids)
+        y_pred.append(pred_score)
 
     return y_pred
 
