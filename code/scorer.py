@@ -251,6 +251,8 @@ def pred(args):
     device, n_gpu = system_setups(args)
     model, test_dataloader = data_and_model_loader(device, n_gpu, args)
 
+    print(test_dataloader)
+
     model.eval()
     pbar = tqdm(test_dataloader, desc="Iteration")
     y_pred = []
