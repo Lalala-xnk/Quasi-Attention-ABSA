@@ -286,7 +286,7 @@ def pred(args):
         logits = F.softmax(logits, dim=-1)
         logits = logits.detach().cpu().numpy()
         outputs = np.argmax(logits, axis=1)
-        y_pred.append(outputs)
+        y_pred.append(outputs[0])
 
     return y_pred
 
