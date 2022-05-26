@@ -451,7 +451,7 @@ class ContextBertModel(nn.Module):
         self.encoder = ContextBERTEncoder(config)
         self.pooler = ContextBERTPooler(config)
 
-        self.context_embeddings = nn.Embedding(8, config.hidden_size)
+        self.context_embeddings = nn.Embedding(16, config.hidden_size)
 
     def forward(self, input_ids, token_type_ids=None, attention_mask=None,
                 # optional parameters for saving context information
