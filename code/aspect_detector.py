@@ -266,8 +266,7 @@ def pred(args):
     for batch in list(test_dataloader):
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
-        input_ids, input_mask, segment_ids, label_ids, seq_lens, \
-        context_ids = batch
+        input_ids, input_mask, segment_ids, label_ids, seq_lens, context_ids = batch
         max_seq_lens = max(seq_lens)[0]
         input_ids = input_ids[:, :max_seq_lens]
         input_mask = input_mask[:, :max_seq_lens]
@@ -284,6 +283,8 @@ def pred(args):
             model(input_ids, segment_ids, input_mask, seq_lens,
                   device=device, labels=label_ids,
                   context_ids=context_ids)
+        logits = F.softmax(logits, dim=-1)
+        logits = logits.detach().cpu().numpy()
         outputs = np.argmax(logits, axis=1)
         y_pred.append(outputs)
 
