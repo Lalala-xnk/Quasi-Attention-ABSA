@@ -311,5 +311,5 @@ if __name__ == '__main__':
         print(i)
         for j in range(16):
             if pred_results[j + i *16] == 0:
-                print(context_id_map_fiqa[j])
+                print(list(context_id_map_fiqa)[j])
     # print(pred_results)
