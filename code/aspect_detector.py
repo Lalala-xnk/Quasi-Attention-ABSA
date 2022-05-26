@@ -307,4 +307,9 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     pred_results = pred(args)
-    print(pred_results)
+    for i in range(int(len(pred_results)/16)):
+        print(i)
+        for j in range(16):
+            if pred_results[j + i *16] == 0:
+                print(context_id_map_fiqa[j])
+    # print(pred_results)
