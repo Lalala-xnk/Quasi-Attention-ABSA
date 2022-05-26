@@ -226,7 +226,7 @@ def system_setups(args):
 def data_and_model_loader(device, n_gpu, args):
     model, tokenizer = get_model_and_tokenizer(vocab_file=args.vocab_file,
                                 bert_config_file=args.bert_config_file, init_checkpoint=args.init_checkpoint,
-                                do_lower_case=True,
+                                label_list=label_list, do_lower_case=True,
                                 init_lrp=False)
 
     test_examples = get_test_examples(args.path)
