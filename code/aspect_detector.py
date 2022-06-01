@@ -313,7 +313,7 @@ if __name__ == '__main__':
         print(i)
         for j in range(16):
             if pred_results[j + i * 16] == 0:
-                tmp = [test_data.iloc[i * 16, 0], list(context_id_map_fiqa)[j]]
+                tmp = [test_data.iloc[i * 16, 1], list(context_id_map_fiqa)[j]]
                 print(tmp)
                 acd_out.append(tmp)
     df_out = pd.DataFrame(acd_out)
