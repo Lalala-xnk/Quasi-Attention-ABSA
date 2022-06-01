@@ -307,9 +307,14 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     pred_results = pred(args)
+    acd_out = []
+    test_data = pd.read_csv(args.path, header=None)
     for i in range(int(len(pred_results)/16)):
         print(i)
         for j in range(16):
-            if pred_results[j + i *16] == 0:
-                print(list(context_id_map_fiqa)[j])
-    # print(pred_results)
+            if pred_results[j + i * 16] == 0:
+                tmp = [test_data.iloc[i * 16, 0], list(context_id_map_fiqa)[j]]
+                print(tmp)
+                acd_out.append(tmp)
+    df_out = pd.DataFrame(acd_out)
+    df_out.to_csv('acd_out.csv', index=None, header=None)
