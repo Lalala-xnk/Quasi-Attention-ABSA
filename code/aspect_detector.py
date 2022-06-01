@@ -62,8 +62,8 @@ def get_test_examples(path):
         examples = []
         for (i, line) in enumerate(lines):
             guid = "%s-%s" % (set_type, i)
-            text_a = convert_to_unicode(str(line[2]))
-            text_b = convert_to_unicode(str(line[1]))
+            text_a = convert_to_unicode(str(line[1]))
+            text_b = convert_to_unicode(str(line[0]))
             label = convert_to_unicode(str(line[0]))
             examples.append(
                 InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
