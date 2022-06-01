@@ -138,7 +138,7 @@ def convert_examples_to_features(examples, label_list, max_seq_length,
         assert len(segment_ids) == max_seq_length
         assert len(context_ids) == max_context_length
 
-        label_id = label_map[example.label]
+        label_id = 0
 
         features.append(
             InputFeatures(
