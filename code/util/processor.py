@@ -170,9 +170,9 @@ class FiqaProcessor(DataProcessor):
         for (i, line) in enumerate(lines):
           #  if i>50:break
             guid = "%s-%s" % (set_type, i)
-            text_a = convert_to_unicode(str(line[4]))
-            text_b = convert_to_unicode(str(line[3]))
-            label = float(line[2])
+            text_a = convert_to_unicode(str(line[2]))
+            text_b = convert_to_unicode(str(line[1]))
+            label = float(line[0])
             if i==0 and debug:
                 print(i)
                 print("guid=",guid)
