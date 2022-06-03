@@ -19,10 +19,9 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-context_id_map_fiqa = {'stock': 0,
-                       'corporate': 1,
-                       'market': 2,
-                       'economy': 3}
+context_id_map_fiqa = {"legal": 0, "m&a": 1, "regulatory": 2, "risks": 3, "rumors": 4, "company communication": 5,
+                       "trade": 6, "central banks": 7, "market": 8, "volatility": 9, "financial": 10,
+                       "fundamentals": 11, "price action": 12, "insider activity": 13, "ipo": 14, "others": 15}
 
 
 class InputFeatures(object):
