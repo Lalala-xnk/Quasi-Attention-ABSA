@@ -185,7 +185,7 @@ def convert_examples_to_features(examples, label_list, max_seq_length,
             if args.task_name == "sentihood_NLI_M":
                 context_ids = [context_id_map_sentihood[example.text_b]]
             elif args.task_name in ["fiqa_headline", "fiqa_post", "fiqa_acd"]:
-                context_ids = [context_id_map_fiqa_chinese_1[example.text_b]]
+                context_ids = [context_id_map_fiqa_chinese[example.text_b]]
             else:
                 context_ids = [context_id_map_semeval[example.text_b]]
 
