@@ -147,7 +147,7 @@ class FiqaProcessor(DataProcessor):
 
     def get_train_examples(self, data_dir):
         """See base class."""
-        train_data = pd.read_csv(os.path.join(data_dir, "fiqa_score_crr_2_train.csv")).values
+        train_data = pd.read_csv(os.path.join(data_dir, "acd_2_headline_crr_train_chinese.csv")).values
         return self._create_examples(train_data, "train")
 
     def get_dev_examples(self, data_dir):
@@ -157,7 +157,7 @@ class FiqaProcessor(DataProcessor):
 
     def get_test_examples(self, data_dir):
         """See base class."""
-        test_data = pd.read_csv(os.path.join(data_dir, "fiqa_score_crr_2_test.csv")).values
+        test_data = pd.read_csv(os.path.join(data_dir, "acd_2_headline_crr_test_chinese.csv")).values
         return self._create_examples(test_data, "test")
 
     def get_labels(self):
@@ -170,9 +170,9 @@ class FiqaProcessor(DataProcessor):
         for (i, line) in enumerate(lines):
           #  if i>50:break
             guid = "%s-%s" % (set_type, i)
-            text_a = convert_to_unicode(str(line[2]))
-            text_b = convert_to_unicode(str(line[1]))
-            label = float(line[0])
+            text_a = convert_to_unicode(str(line[4]))
+            text_b = convert_to_unicode(str(line[3]))
+            label = convert_to_unicode(str(line[2]))
             if i==0 and debug:
                 print(i)
                 print("guid=",guid)
